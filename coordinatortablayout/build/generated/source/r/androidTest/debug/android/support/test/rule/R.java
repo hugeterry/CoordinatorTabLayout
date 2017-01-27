@@ -8,6 +8,6 @@ package android.support.test.rule;
 
 public final class R {
 	public static final class string {
-		public static final int app_name = 0x7f050021;
+		public static final int app_name = 0x7f060021;
 	}
 }
