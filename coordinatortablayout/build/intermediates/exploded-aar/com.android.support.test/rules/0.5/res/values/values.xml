@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/usr/local/google/buildbot/src/googleplex-android/ub-support-test-release/frameworks/testing/rules/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Test-api</string>
+</resources>
