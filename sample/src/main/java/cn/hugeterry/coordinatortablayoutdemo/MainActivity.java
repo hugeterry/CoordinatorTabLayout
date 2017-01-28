@@ -36,9 +36,9 @@ public class MainActivity extends AppCompatActivity {
         mImageArray = new int[]{R.mipmap.bg_android, R.mipmap.bg_ios, R.mipmap.bg_js, R.mipmap.bg_other};
 
         mCoordinatorTabLayout = (CoordinatorTabLayout) findViewById(R.id.coordinatortablayout);
-        mCoordinatorTabLayout.setToolbarTitle("Demo");
-        mCoordinatorTabLayout.setToolbarBackEnable(true);
-        mCoordinatorTabLayout.setupImageArray(mImageArray);
+        mCoordinatorTabLayout.setTitle("Demo");
+        mCoordinatorTabLayout.setBackEnable(true);
+        mCoordinatorTabLayout.setImageArray(mImageArray);
         mCoordinatorTabLayout.setupWithViewPager(mViewPager);
     }
 

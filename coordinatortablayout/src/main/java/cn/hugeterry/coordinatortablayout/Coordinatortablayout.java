@@ -18,8 +18,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 /**
- * Created by hugeterry(http://hugeterry.cn)
- * Date: 17/1/27 14:57
+ * @author hugeterry(http://hugeterry.cn)
  */
 
 public class CoordinatorTabLayout extends CoordinatorLayout {
@@ -40,7 +39,6 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
         mContext = context;
         initView(context);
         initWidget(context, attrs);
-
     }
 
     public CoordinatorTabLayout(Context context, AttributeSet attrs, int defStyleAttr) {
@@ -85,7 +83,7 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
      *
      * @param title 标题
      */
-    public void setToolbarTitle(String title) {
+    public void setTitle(String title) {
         if (mActionbar != null) {
             mActionbar.setTitle(title);
         }
@@ -96,7 +94,7 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
      *
      * @param canBack 是否返回
      */
-    public void setToolbarBackEnable(Boolean canBack) {
+    public void setBackEnable(Boolean canBack) {
         if (canBack && mActionbar != null) {
             mActionbar.setDisplayHomeAsUpEnabled(true);
             mActionbar.setHomeAsUpIndicator(R.drawable.ic_arrow_white_24dp);
@@ -104,11 +102,11 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
     }
 
     /**
-     * 设置每个tab对应的图片
+     * 设置每个tab对应的头部图片
      *
      * @param imageArray 图片数组
      */
-    public void setupImageArray(int[] imageArray) {
+    public void setImageArray(int[] imageArray) {
         if (imageArray != null) {
             mImageView.setImageResource(imageArray[0]);
             setupTabLayout(imageArray);
