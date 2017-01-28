@@ -1,4 +1,4 @@
-package cn.hugeterry.coordinatortablayout;
+package cn.hugeterry.coordinatortablayoutdemo;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
