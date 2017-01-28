@@ -5,6 +5,7 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.MenuItem;
 import android.view.Window;
 import android.view.WindowManager;
 
@@ -33,12 +34,12 @@ public class MainActivity extends AppCompatActivity {
         initFragments();
         initViewPager();
         mImageArray = new int[]{R.mipmap.bg_android, R.mipmap.bg_ios, R.mipmap.bg_js, R.mipmap.bg_other};
+
         mCoordinatorTabLayout = (CoordinatorTabLayout) findViewById(R.id.coordinatortablayout);
         mCoordinatorTabLayout.setToolbarTitle("Demo");
         mCoordinatorTabLayout.setToolbarBackEnable(true);
         mCoordinatorTabLayout.setupImageArray(mImageArray);
         mCoordinatorTabLayout.setupWithViewPager(mViewPager);
-
     }
 
     private void initFragments() {
@@ -52,5 +53,13 @@ public class MainActivity extends AppCompatActivity {
         mViewPager = (ViewPager) findViewById(R.id.vp);
         mViewPager.setOffscreenPageLimit(4);
         mViewPager.setAdapter(new MyPagerAdapter(getSupportFragmentManager(), mFragments, mTitles));
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            finish();
+        }
+        return super.onOptionsItemSelected(item);
     }
 }
