@@ -5,6 +5,8 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Window;
+import android.view.WindowManager;
 
 import java.util.ArrayList;
 
@@ -24,6 +26,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main);
         initFragments();
         initViewPager();
@@ -31,8 +36,8 @@ public class MainActivity extends AppCompatActivity {
         mCoordinatorTabLayout = (CoordinatorTabLayout) findViewById(R.id.coordinatortablayout);
         mCoordinatorTabLayout.setToolbarTitle("Demo");
         mCoordinatorTabLayout.setToolbarBackEnable(true);
-        mCoordinatorTabLayout.setupWithViewPager(mViewPager);
         mCoordinatorTabLayout.setupImageArray(mImageArray);
+        mCoordinatorTabLayout.setupWithViewPager(mViewPager);
 
     }
 

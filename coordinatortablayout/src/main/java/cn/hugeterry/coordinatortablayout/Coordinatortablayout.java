@@ -89,15 +89,6 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
     }
 
     /**
-     * 设置与该组件搭配的ViewPager
-     *
-     * @param vp 与TabLayout结合的ViewPager
-     */
-    public void setupWithViewPager(ViewPager vp) {
-        mTabLayout.setupWithViewPager(vp);
-    }
-
-    /**
      * 设置每个tab对应的图片
      *
      * @param imageArray 图片数组
@@ -126,5 +117,14 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
             public void onTabReselected(TabLayout.Tab tab) {
             }
         });
+    }
+
+    /**
+     * 设置与该组件搭配的ViewPager
+     *
+     * @param vp 与TabLayout结合的ViewPager
+     */
+    public void setupWithViewPager(ViewPager vp) {
+        mTabLayout.setupWithViewPager(vp);
     }
 }
