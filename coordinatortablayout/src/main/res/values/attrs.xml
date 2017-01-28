@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="CoordinatorTabLayout">
-        <attr name="tab_image_src" format="reference" />
+        <attr name="contentScrim" format="color" />
+        <attr name="tabIndicatorColor" format="color" />
     </declare-styleable>
 </resources>

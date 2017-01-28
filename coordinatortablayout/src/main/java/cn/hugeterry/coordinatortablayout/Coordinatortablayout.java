@@ -2,6 +2,8 @@ package cn.hugeterry.coordinatortablayout;
 
 import android.content.Context;
 import android.content.res.TypedArray;
+import android.graphics.Color;
+import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
@@ -10,6 +12,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.AttributeSet;
 import android.util.Log;
+import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
@@ -25,6 +28,7 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
     private ActionBar mActionbar;
     private TabLayout mTabLayout;
     private ImageView mImageView;
+    private CollapsingToolbarLayout mCollapsingToolbarLayout;
 
     public CoordinatorTabLayout(Context context) {
         super(context);
@@ -49,6 +53,7 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
     private void initView(Context context) {
         LayoutInflater.from(context).inflate(R.layout.view_coordinatortablayout, this, true);
         initToolbar();
+        mCollapsingToolbarLayout = (CollapsingToolbarLayout) findViewById(R.id.collapsingtoolbarlayout);
         mTabLayout = (TabLayout) findViewById(R.id.tabLayout);
         mImageView = (ImageView) findViewById(R.id.imageview);
     }
@@ -57,6 +62,16 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
         TypedArray typedArray = context.obtainStyledAttributes(attrs
                 , R.styleable.CoordinatorTabLayout);
 
+        TypedValue typedValue = new TypedValue();
+        mContext.getTheme().resolveAttribute(R.attr.colorPrimary, typedValue, true);
+        int contentScrimColor = typedArray.getColor(
+                R.styleable.CoordinatorTabLayout_contentScrim, typedValue.data);
+        mCollapsingToolbarLayout.setContentScrimColor(contentScrimColor);
+
+        int tabIndicatorColor = typedArray.getColor(R.styleable.CoordinatorTabLayout_tabIndicatorColor, Color.WHITE);
+        mTabLayout.setSelectedTabIndicatorColor(tabIndicatorColor);
+
+        typedArray.recycle();
     }
 
     private void initToolbar() {
@@ -122,9 +137,9 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
     /**
      * 设置与该组件搭配的ViewPager
      *
-     * @param vp 与TabLayout结合的ViewPager
+     * @param viewPager 与TabLayout结合的ViewPager
      */
-    public void setupWithViewPager(ViewPager vp) {
-        mTabLayout.setupWithViewPager(vp);
+    public void setupWithViewPager(ViewPager viewPager) {
+        mTabLayout.setupWithViewPager(viewPager);
     }
 }
