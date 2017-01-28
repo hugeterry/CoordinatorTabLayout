@@ -9,6 +9,7 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
@@ -18,21 +19,19 @@ import android.widget.ImageView;
  * Date: 17/1/27 14:57
  */
 
-public class Coordinatortablayout extends CoordinatorLayout {
+public class CoordinatorTabLayout extends CoordinatorLayout {
     private Context mContext;
     private Toolbar mToolbar;
     private ActionBar mActionbar;
     private TabLayout mTabLayout;
     private ImageView mImageView;
-    private ViewPager mViewPager;
-    private int[] mImageArray;
 
-    public Coordinatortablayout(Context context) {
+    public CoordinatorTabLayout(Context context) {
         super(context);
         mContext = context;
     }
 
-    public Coordinatortablayout(Context context, AttributeSet attrs) {
+    public CoordinatorTabLayout(Context context, AttributeSet attrs) {
         super(context, attrs);
         mContext = context;
         initView(context);
@@ -40,7 +39,7 @@ public class Coordinatortablayout extends CoordinatorLayout {
 
     }
 
-    public Coordinatortablayout(Context context, AttributeSet attrs, int defStyleAttr) {
+    public CoordinatorTabLayout(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         mContext = context;
         initView(context);
@@ -50,35 +49,14 @@ public class Coordinatortablayout extends CoordinatorLayout {
     private void initView(Context context) {
         LayoutInflater.from(context).inflate(R.layout.view_coordinatortablayout, this, true);
         initToolbar();
-        setupTabLayout();
+        mTabLayout = (TabLayout) findViewById(R.id.tabLayout);
+        mImageView = (ImageView) findViewById(R.id.imageview);
     }
 
     private void initWidget(Context context, AttributeSet attrs) {
         TypedArray typedArray = context.obtainStyledAttributes(attrs
-                , R.styleable.Coordinatortablayout);
+                , R.styleable.CoordinatorTabLayout);
 
-    }
-
-    private void setupTabLayout() {
-        mTabLayout = (TabLayout) findViewById(R.id.tabLayout);
-        mTabLayout.setupWithViewPager(mViewPager);
-        mImageView = (ImageView) findViewById(R.id.imageview);
-        mTabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
-            @Override
-            public void onTabSelected(TabLayout.Tab tab) {
-                mImageView.startAnimation(AnimationUtils.loadAnimation(mContext, R.anim.anim_dismiss));
-                mImageView.setImageResource(mImageArray[tab.getPosition()]);
-                mImageView.setAnimation(AnimationUtils.loadAnimation(mContext, R.anim.anim_show));
-            }
-
-            @Override
-            public void onTabUnselected(TabLayout.Tab tab) {
-            }
-
-            @Override
-            public void onTabReselected(TabLayout.Tab tab) {
-            }
-        });
     }
 
     private void initToolbar() {
@@ -116,7 +94,7 @@ public class Coordinatortablayout extends CoordinatorLayout {
      * @param vp 与TabLayout结合的ViewPager
      */
     public void setupWithViewPager(ViewPager vp) {
-        mViewPager = vp;
+        mTabLayout.setupWithViewPager(vp);
     }
 
     /**
@@ -126,7 +104,27 @@ public class Coordinatortablayout extends CoordinatorLayout {
      */
     public void setupImageArray(int[] imageArray) {
         if (imageArray != null) {
-            mImageArray = imageArray;
+            mImageView.setImageResource(imageArray[0]);
+            setupTabLayout(imageArray);
         }
+    }
+
+    private void setupTabLayout(final int[] imageArray) {
+        mTabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
+            @Override
+            public void onTabSelected(TabLayout.Tab tab) {
+                mImageView.startAnimation(AnimationUtils.loadAnimation(mContext, R.anim.anim_dismiss));
+                mImageView.setImageResource(imageArray[tab.getPosition()]);
+                mImageView.setAnimation(AnimationUtils.loadAnimation(mContext, R.anim.anim_show));
+            }
+
+            @Override
+            public void onTabUnselected(TabLayout.Tab tab) {
+            }
+
+            @Override
+            public void onTabReselected(TabLayout.Tab tab) {
+            }
+        });
     }
 }

@@ -6801,29 +6801,29 @@ containing a value of this type.
           @attr name cn.hugeterry.coordinatortablayout:layout_keyline
         */
         public static int CoordinatorLayout_Layout_layout_keyline = 3;
-        /** Attributes that can be used with a Coordinatortablayout.
+        /** Attributes that can be used with a CoordinatorTabLayout.
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Coordinatortablayout_tab_image_src cn.hugeterry.coordinatortablayout:tab_image_src}</code></td><td></td></tr>
+           <tr><td><code>{@link #CoordinatorTabLayout_tab_image_src cn.hugeterry.coordinatortablayout:tab_image_src}</code></td><td></td></tr>
            </table>
-           @see #Coordinatortablayout_tab_image_src
+           @see #CoordinatorTabLayout_tab_image_src
          */
-        public static final int[] Coordinatortablayout = {
+        public static final int[] CoordinatorTabLayout = {
             0x7f0100c2
         };
         /**
           <p>This symbol is the offset where the {@link cn.hugeterry.coordinatortablayout.R.attr#tab_image_src}
-          attribute's value can be found in the {@link #Coordinatortablayout} array.
+          attribute's value can be found in the {@link #CoordinatorTabLayout} array.
 
 
           <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
           @attr name cn.hugeterry.coordinatortablayout:tab_image_src
         */
-        public static int Coordinatortablayout_tab_image_src = 0;
+        public static int CoordinatorTabLayout_tab_image_src = 0;
         /** Attributes that can be used with a DesignTheme.
            <p>Includes the following attributes:</p>
            <table>

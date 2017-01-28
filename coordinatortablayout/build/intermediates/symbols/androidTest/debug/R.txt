@@ -1579,8 +1579,8 @@ int styleable CoordinatorLayout_Layout_layout_behavior 1
 int styleable CoordinatorLayout_Layout_layout_dodgeInsetEdges 6
 int styleable CoordinatorLayout_Layout_layout_insetEdge 5
 int styleable CoordinatorLayout_Layout_layout_keyline 3
-int[] styleable Coordinatortablayout { 0x7f0100c2 }
-int styleable Coordinatortablayout_tab_image_src 0
+int[] styleable CoordinatorTabLayout { 0x7f0100c2 }
+int styleable CoordinatorTabLayout_tab_image_src 0
 int[] styleable DesignTheme { 0x7f0100c3, 0x7f0100c4, 0x7f0100c5 }
 int styleable DesignTheme_bottomSheetDialogTheme 0
 int styleable DesignTheme_bottomSheetStyle 1

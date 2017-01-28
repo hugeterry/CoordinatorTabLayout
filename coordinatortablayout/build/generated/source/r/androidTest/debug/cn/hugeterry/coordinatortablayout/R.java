@@ -1613,8 +1613,8 @@ public final class R {
 		public static final int CoordinatorLayout_Layout_layout_keyline = 3;
 		public static final int CoordinatorLayout_keylines = 0;
 		public static final int CoordinatorLayout_statusBarBackground = 1;
-		public static final int[] Coordinatortablayout = { 0x7f0100c2 };
-		public static final int Coordinatortablayout_tab_image_src = 0;
+		public static final int[] CoordinatorTabLayout = { 0x7f0100c2 };
+		public static final int CoordinatorTabLayout_tab_image_src = 0;
 		public static final int[] DesignTheme = { 0x7f0100c3, 0x7f0100c4, 0x7f0100c5 };
 		public static final int DesignTheme_bottomSheetDialogTheme = 0;
 		public static final int DesignTheme_bottomSheetStyle = 1;
