@@ -19,7 +19,7 @@ import cn.hugeterry.coordinatortablayout.CoordinatorTabLayout;
  */
 public class MainActivity extends AppCompatActivity {
     private CoordinatorTabLayout mCoordinatorTabLayout;
-    private int[] mImageArray;
+    private int[] mImageArray, mColorArray;
     private ArrayList<Fragment> mFragments;
     private final String[] mTitles = {"Android", "iOS", "前端", "拓展资源"};
     private ViewPager mViewPager;
@@ -34,11 +34,16 @@ public class MainActivity extends AppCompatActivity {
         initFragments();
         initViewPager();
         mImageArray = new int[]{R.mipmap.bg_android, R.mipmap.bg_ios, R.mipmap.bg_js, R.mipmap.bg_other};
+        mColorArray = new int[]{
+                android.R.color.holo_blue_light,
+                android.R.color.holo_red_light,
+                android.R.color.holo_orange_light,
+                android.R.color.holo_green_light};
 
         mCoordinatorTabLayout = (CoordinatorTabLayout) findViewById(R.id.coordinatortablayout);
         mCoordinatorTabLayout.setTitle("Demo");
         mCoordinatorTabLayout.setBackEnable(true);
-        mCoordinatorTabLayout.setImageArray(mImageArray);
+        mCoordinatorTabLayout.setImageArray(mImageArray, mColorArray);
         mCoordinatorTabLayout.setupWithViewPager(mViewPager);
     }
 
