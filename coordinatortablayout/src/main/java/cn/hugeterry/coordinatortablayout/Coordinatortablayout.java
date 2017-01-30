@@ -1,6 +1,7 @@
 package cn.hugeterry.coordinatortablayout;
 
 import android.content.Context;
+import android.content.res.ColorStateList;
 import android.content.res.TypedArray;
 import android.graphics.Color;
 import android.support.design.widget.CollapsingToolbarLayout;
@@ -38,15 +39,19 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
     public CoordinatorTabLayout(Context context, AttributeSet attrs) {
         super(context, attrs);
         mContext = context;
-        initView(context);
-        initWidget(context, attrs);
+        if (!isInEditMode()) {
+            initView(context);
+            initWidget(context, attrs);
+        }
     }
 
     public CoordinatorTabLayout(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         mContext = context;
-        initView(context);
-        initWidget(context, attrs);
+        if (!isInEditMode()) {
+            initView(context);
+            initWidget(context, attrs);
+        }
     }
 
     private void initView(Context context) {
@@ -70,6 +75,8 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
         int tabIndicatorColor = typedArray.getColor(R.styleable.CoordinatorTabLayout_tabIndicatorColor, Color.WHITE);
         mTabLayout.setSelectedTabIndicatorColor(tabIndicatorColor);
 
+        int tabTextColor = typedArray.getColor(R.styleable.CoordinatorTabLayout_tabTextColor, Color.WHITE);
+        mTabLayout.setTabTextColors(ColorStateList.valueOf(tabTextColor));
         typedArray.recycle();
     }
 
