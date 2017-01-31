@@ -41,10 +41,10 @@ public class MainActivity extends AppCompatActivity {
                 android.R.color.holo_green_light};
 
         mCoordinatorTabLayout = (CoordinatorTabLayout) findViewById(R.id.coordinatortablayout);
-        mCoordinatorTabLayout.setTitle("Demo");
-        mCoordinatorTabLayout.setBackEnable(true);
-        mCoordinatorTabLayout.setImageArray(mImageArray, mColorArray);
-        mCoordinatorTabLayout.setupWithViewPager(mViewPager);
+        mCoordinatorTabLayout.setTitle("Demo")
+                .setBackEnable(true)
+                .setImageArray(mImageArray, mColorArray)
+                .setupWithViewPager(mViewPager);
     }
 
     private void initFragments() {

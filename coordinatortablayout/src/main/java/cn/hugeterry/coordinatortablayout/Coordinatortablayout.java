@@ -13,7 +13,6 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.animation.AnimationUtils;
@@ -91,10 +90,11 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
      *
      * @param title 标题
      */
-    public void setTitle(String title) {
+    public CoordinatorTabLayout setTitle(String title) {
         if (mActionbar != null) {
             mActionbar.setTitle(title);
         }
+        return this;
     }
 
     /**
@@ -102,11 +102,12 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
      *
      * @param canBack 是否返回
      */
-    public void setBackEnable(Boolean canBack) {
+    public CoordinatorTabLayout setBackEnable(Boolean canBack) {
         if (canBack && mActionbar != null) {
             mActionbar.setDisplayHomeAsUpEnabled(true);
             mActionbar.setHomeAsUpIndicator(R.drawable.ic_arrow_white_24dp);
         }
+        return this;
     }
 
     /**
@@ -114,11 +115,12 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
      *
      * @param imageArray 图片数组
      */
-    public void setImageArray(int[] imageArray) {
+    public CoordinatorTabLayout setImageArray(int[] imageArray) {
         if (imageArray != null) {
             mImageView.setImageResource(imageArray[0]);
             setupTabLayout(imageArray, null);
         }
+        return this;
     }
 
     /**
@@ -127,11 +129,12 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
      * @param imageArray 图片数组
      * @param colorArray ContentScrimColor数组
      */
-    public void setImageArray(int[] imageArray, int[] colorArray) {
+    public CoordinatorTabLayout setImageArray(int[] imageArray, int[] colorArray) {
         if (imageArray != null) {
             mImageView.setImageResource(imageArray[0]);
             setupTabLayout(imageArray, colorArray);
         }
+        return this;
     }
 
     private void setupTabLayout(final int[] imageArray, final int[] colorArray) {
@@ -163,7 +166,8 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
      *
      * @param viewPager 与TabLayout结合的ViewPager
      */
-    public void setupWithViewPager(ViewPager viewPager) {
+    public CoordinatorTabLayout setupWithViewPager(ViewPager viewPager) {
         mTabLayout.setupWithViewPager(viewPager);
+        return this;
     }
 }

@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="cn.hugeterry.coordinatortablayout"
     android:versionCode="1"
-    android:versionName="1.0.0" >
+    android:versionName="1.0.2" >
 
     <uses-sdk
         android:minSdkVersion="15"
