@@ -43,7 +43,7 @@ Config in xml:
 
 ###Step 3
 
-Use it in your own code:
+Use it in your own code:</br>
 1.setTitle(String title):Set the CoordinatorTabLayout's title.</br>
 2.setupWithViewPager(ViewPager viewPager):To link the two together.</br>
 3.setImageArray(int[] imageArray):Set the image array of the header according to the number of tabs and pass it to the control.

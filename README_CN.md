@@ -41,7 +41,7 @@ dependencies {
 
 ###Step 3
 
-在使用它的界面添加以下设置:
+在使用它的界面添加以下设置:</br>
 1.setTitle(String title):设置Toolbar标题</br>
 2.setupWithViewPager(ViewPager viewPager):将写好的viewpager设置到该控件当中</br>
 3.setImageArray(int[] imageArray):根据tab数量设置好头部的图片数组，并传到该控件当中
