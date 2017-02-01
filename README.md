@@ -8,7 +8,7 @@
 CoordinatorTabLayout is a custom combination of controls, you can quickly achieve TabLayout and CoordinatorLayout combined style
 Inherited to CoordinatorLayout, CollapsingToolbarLayout contains the TabLayout in the CoordinatorLayout.
 
-![show](showUI/1.gif)
+![show](showUI/show1.gif)
 
 
 ##Usage
