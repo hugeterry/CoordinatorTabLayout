@@ -46,7 +46,8 @@ Config in xml:
 Use it in your own code:</br>
 1.setTitle(String title):Set the CoordinatorTabLayout's title.</br>
 2.setupWithViewPager(ViewPager viewPager):To link the two together.</br>
-3.setImageArray(int[] imageArray):Set the image array of the header according to the number of tabs and pass it to the control.
+3.setImageArray(int[] imageArray):Set the image array of the header according to the number of tabs and pass it to the control.</br>
+![show](showUI/show3.gif)</br>
 ```
         //Add the fragment to the viewpager
         initFragments();
