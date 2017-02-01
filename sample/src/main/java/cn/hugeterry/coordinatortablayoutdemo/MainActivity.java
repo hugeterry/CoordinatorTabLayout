@@ -4,7 +4,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.Window;
 import android.view.WindowManager;
@@ -33,7 +33,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         initFragments();
         initViewPager();
-        mImageArray = new int[]{R.mipmap.bg_android, R.mipmap.bg_ios, R.mipmap.bg_js, R.mipmap.bg_other};
+        mImageArray = new int[]{
+                R.mipmap.bg_android,
+                R.mipmap.bg_ios,
+                R.mipmap.bg_js,
+                R.mipmap.bg_other};
         mColorArray = new int[]{
                 android.R.color.holo_blue_light,
                 android.R.color.holo_red_light,
@@ -65,6 +69,21 @@ public class MainActivity extends AppCompatActivity {
         if (item.getItemId() == android.R.id.home) {
             finish();
         }
+
+        switch (item.getItemId()) {
+            case R.id.action_about:
+                IntentUtils.openUrl(this, "https://github.com/hugeterry/CoordinatorTabLayout");
+                break;
+            case R.id.action_about_me:
+                IntentUtils.openUrl(this, "http://hugeterry.cn/about");
+                break;
+        }
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return super.onCreateOptionsMenu(menu);
     }
 }
