@@ -170,4 +170,19 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
         mTabLayout.setupWithViewPager(viewPager);
         return this;
     }
+
+    /**
+     * 获取该组件中的ActionBar
+     */
+    public ActionBar getActionBar() {
+        return mActionbar;
+    }
+
+    /**
+     * 获取该组件中的TabLayout
+     */
+    public TabLayout getTabLayout() {
+        return mTabLayout;
+    }
+
 }
