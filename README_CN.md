@@ -3,18 +3,17 @@
 [![License](https://img.shields.io/badge/license-Apache%202.0-green.svg)](https://github.com/hugeterry/CoordinatorTabLayout/blob/master/LICENSE.txt)
 [![Download](https://api.bintray.com/packages/hugeterry/CoordinatorTabLayout/CoordinatorTabLayout/images/download.svg) ](https://bintray.com/hugeterry/CoordinatorTabLayout/CoordinatorTabLayout/_latestVersion)
 
-[中文版文档](README_CN.md)
+CoordinatorTabLayout是一个自定义组合控件,可快速实现该TabLayout与CoordinatorLayout相结合的样式
+继承至CoordinatorLayout,CollapsingToolbarLayout包含了TabLayout在该CoordinatorLayout下
 
-CoordinatorTabLayout is a custom combination of controls, you can quickly achieve TabLayout and CoordinatorLayout combined style
-Inherited to CoordinatorLayout, CollapsingToolbarLayout contains the TabLayout in the CoordinatorLayout.
 ![show](showUI/1.gif)
 
 
-##Usage
+##用法
 
 ###Step 1
 
-Add the following to your build.gradle:
+在gradle文件中加入下面的依赖:
 
 ```
 dependencies {
@@ -24,8 +23,7 @@ dependencies {
 
 ###Step 2
 
-Config in xml:
-
+在你自己的XML中使用它:
 ```
 <cn.hugeterry.coordinatortablayout.CoordinatorTabLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -44,16 +42,16 @@ Config in xml:
 
 ###Step 3
 
-Use it in your own code:
+在使用它的界面添加以下设置:
 
-1.setTitle(String title):Set the CoordinatorTabLayout's title.
-2.setupWithViewPager(ViewPager viewPager):To link the two together.
-3.setImageArray(int[] imageArray):Set the image array of the header according to the number of tabs and pass it to the control.
+1.setTitle(String title):设置Toolbar标题
+2.setupWithViewPager(ViewPager viewPager):将写好的viewpager设置到该控件当中
+3.setImageArray(int[] imageArray):根据tab数量设置好头部的图片数组，并传到该控件当中
 ```
-        //Add the fragment to the viewpager
+        //构建写好的fragment加入到viewpager中
         initFragments();
         initViewPager();
-        //Image array
+        //头部的图片数组
         mImageArray = new int[]{
                 R.mipmap.bg_android,
                 R.mipmap.bg_ios,
@@ -66,15 +64,15 @@ Use it in your own code:
                 .setupWithViewPager(mViewPager);
 ```
 
-Finish, enjoy it.
+大功告成，好好享用吧
 
-##More
+##更多功能
 
-###set the content scrim
+###添加折叠后的颜色变化效果
 
 ![show](showUI/show2.gif)
 
-setImageArray(int[] imageArray, int[] colorArray):Set the color array to use for the content scrim for each tab.
+setImageArray(int[] imageArray, int[] colorArray):如果你想要有头部折叠后的颜色变化，可将之前设置好的图片数组以及根据tab数量设置的颜色数组传到该控件当中
 ```
         mColorArray = new int[]{
                 android.R.color.holo_blue_light,
@@ -84,9 +82,9 @@ setImageArray(int[] imageArray, int[] colorArray):Set the color array to use for
         mCoordinatorTabLayout.setImageArray(mImageArray, mColorArray);
  ```
 
-###set back enable
+###添加返回
 
-setBackEnable(Boolean canBack):To enable the Up button for an activity that has a parent activity.
+setBackEnable(Boolean canBack):设置Toolbar的返回按钮
 ```
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -103,16 +101,16 @@ setBackEnable(Boolean canBack):To enable the Up button for an activity that has 
     }
 ```
 
-###Gets the child control
+###获取子控件
 
-getActionBar():get the ActionBar
-getTabLayout():get the TabLayout
+getActionBar():获取该组件中的ActionBar
+getTabLayout():获取该组件中的TabLayout
 
-[More code](https://github.com/hugeterry/CoordinatorTabLayout/blob/master/sample/src/main/java/cn/hugeterry/coordinatortablayoutdemo/MainActivity.java)
+[更多代码](https://github.com/hugeterry/CoordinatorTabLayout/blob/master/sample/src/main/java/cn/hugeterry/coordinatortablayoutdemo/MainActivity.java)
 
-##Attributes
+##属性
 
-- app:contentScrim -> color.Defaults to ?attr/colorPrimary
+- app:contentScrim -> color.默认为?attr/colorPrimary
 - app:tabIndicatorColor -> color.
 - app:tabTextColor -> color.
 
