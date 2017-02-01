@@ -7,6 +7,7 @@
 
 CoordinatorTabLayout is a custom combination of controls, you can quickly achieve TabLayout and CoordinatorLayout combined style
 Inherited to CoordinatorLayout, CollapsingToolbarLayout contains the TabLayout in the CoordinatorLayout.
+
 ![show](showUI/1.gif)
 
 
@@ -15,7 +16,6 @@ Inherited to CoordinatorLayout, CollapsingToolbarLayout contains the TabLayout i
 ###Step 1
 
 Add the following to your build.gradle:
-
 ```
 dependencies {
     compile 'cn.hugeterry.coordinatortablayout:coordinatortablayout:1.0.2'
@@ -25,7 +25,6 @@ dependencies {
 ###Step 2
 
 Config in xml:
-
 ```
 <cn.hugeterry.coordinatortablayout.CoordinatorTabLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -45,9 +44,8 @@ Config in xml:
 ###Step 3
 
 Use it in your own code:
-
-1.setTitle(String title):Set the CoordinatorTabLayout's title.
-2.setupWithViewPager(ViewPager viewPager):To link the two together.
+1.setTitle(String title):Set the CoordinatorTabLayout's title.</br>
+2.setupWithViewPager(ViewPager viewPager):To link the two together.</br>
 3.setImageArray(int[] imageArray):Set the image array of the header according to the number of tabs and pass it to the control.
 ```
         //Add the fragment to the viewpager
@@ -68,6 +66,7 @@ Use it in your own code:
 
 Finish, enjoy it.
 
+
 ##More
 
 ###set the content scrim
@@ -85,7 +84,6 @@ setImageArray(int[] imageArray, int[] colorArray):Set the color array to use for
  ```
 
 ###set back enable
-
 setBackEnable(Boolean canBack):To enable the Up button for an activity that has a parent activity.
 ```
     @Override
@@ -104,14 +102,13 @@ setBackEnable(Boolean canBack):To enable the Up button for an activity that has 
 ```
 
 ###Gets the child control
-
 getActionBar():get the ActionBar
 getTabLayout():get the TabLayout
 
 [More code](https://github.com/hugeterry/CoordinatorTabLayout/blob/master/sample/src/main/java/cn/hugeterry/coordinatortablayoutdemo/MainActivity.java)
 
-##Attributes
 
+##Attributes
 - app:contentScrim -> color.Defaults to ?attr/colorPrimary
 - app:tabIndicatorColor -> color.
 - app:tabTextColor -> color.

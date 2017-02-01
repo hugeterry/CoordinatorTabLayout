@@ -14,7 +14,6 @@ CoordinatorTabLayout是一个自定义组合控件,可快速实现该TabLayout�
 ###Step 1
 
 在gradle文件中加入下面的依赖:
-
 ```
 dependencies {
     compile 'cn.hugeterry.coordinatortablayout:coordinatortablayout:1.0.2'
@@ -43,9 +42,8 @@ dependencies {
 ###Step 3
 
 在使用它的界面添加以下设置:
-
-1.setTitle(String title):设置Toolbar标题
-2.setupWithViewPager(ViewPager viewPager):将写好的viewpager设置到该控件当中
+1.setTitle(String title):设置Toolbar标题</br>
+2.setupWithViewPager(ViewPager viewPager):将写好的viewpager设置到该控件当中</br>
 3.setImageArray(int[] imageArray):根据tab数量设置好头部的图片数组，并传到该控件当中
 ```
         //构建写好的fragment加入到viewpager中
@@ -65,6 +63,7 @@ dependencies {
 ```
 
 大功告成，好好享用吧
+
 
 ##更多功能
 
@@ -107,6 +106,7 @@ getActionBar():获取该组件中的ActionBar
 getTabLayout():获取该组件中的TabLayout
 
 [更多代码](https://github.com/hugeterry/CoordinatorTabLayout/blob/master/sample/src/main/java/cn/hugeterry/coordinatortablayoutdemo/MainActivity.java)
+
 
 ##属性
 
