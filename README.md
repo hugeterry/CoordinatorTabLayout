@@ -5,8 +5,8 @@
 
 [中文版文档](README_CN.md)
 
-CoordinatorTabLayout is a custom combination of controls, you can quickly achieve TabLayout and CoordinatorLayout combined style
-Inherited to CoordinatorLayout, CollapsingToolbarLayout contains the TabLayout in the CoordinatorLayout.
+CoordinatorTabLayout is a custom composite control that quickly implements the combination of TabLayout and CoordinatorLayout.
+Inherited to the CoordinatorLayout, in the following components used CollapsingToolbarLayout contains TabLayout.
 
 ![show](showUI/show1.gif)
 

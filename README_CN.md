@@ -3,8 +3,8 @@
 [![License](https://img.shields.io/badge/license-Apache%202.0-green.svg)](https://github.com/hugeterry/CoordinatorTabLayout/blob/master/LICENSE.txt)
 [![Download](https://api.bintray.com/packages/hugeterry/CoordinatorTabLayout/CoordinatorTabLayout/images/download.svg) ](https://bintray.com/hugeterry/CoordinatorTabLayout/CoordinatorTabLayout/_latestVersion)
 
-CoordinatorTabLayout是一个自定义组合控件,可快速实现该TabLayout与CoordinatorLayout相结合的样式
-继承至CoordinatorLayout,CollapsingToolbarLayout包含了TabLayout在该CoordinatorLayout下
+CoordinatorTabLayout是一个自定义组合控件,可快速实现TabLayout与CoordinatorLayout相结合的样式
+继承至CoordinatorLayout, 在该组件下面使用了CollapsingToolbarLayout包含TabLayout
 
 ![show](showUI/show1.gif)
 
