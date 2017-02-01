@@ -16,7 +16,7 @@ CoordinatorTabLayout是一个自定义组合控件,可快速实现该TabLayout�
 在gradle文件中加入下面的依赖:
 ```
 dependencies {
-    compile 'cn.hugeterry.coordinatortablayout:coordinatortablayout:1.0.2'
+    compile 'cn.hugeterry.coordinatortablayout:coordinatortablayout:1.0.5'
 }
 ```
 

@@ -18,7 +18,7 @@ Inherited to CoordinatorLayout, CollapsingToolbarLayout contains the TabLayout i
 Add the following to your build.gradle:
 ```
 dependencies {
-    compile 'cn.hugeterry.coordinatortablayout:coordinatortablayout:1.0.2'
+    compile 'cn.hugeterry.coordinatortablayout:coordinatortablayout:1.0.5'
 }
 ```
 
