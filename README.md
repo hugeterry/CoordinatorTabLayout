@@ -114,6 +114,8 @@ getTabLayout():get the TabLayout
 - app:tabIndicatorColor -> color.
 - app:tabTextColor -> color.
 
+##Demo
+[http://fir.im/ctlayout](http://fir.im/ctlayout)
 
 ## LICENSE
     Copyright 2017 HugeTerry.

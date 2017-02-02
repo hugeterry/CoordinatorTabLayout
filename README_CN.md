@@ -41,6 +41,7 @@ dependencies {
 
 ###Step 3
 
+![show](showUI/show3.gif)</br>
 在使用它的界面添加以下设置:</br>
 1.setTitle(String title):设置Toolbar标题</br>
 2.setupWithViewPager(ViewPager viewPager):将写好的viewpager设置到该控件当中</br>
@@ -114,6 +115,8 @@ getTabLayout():获取该组件中的TabLayout
 - app:tabIndicatorColor -> color.
 - app:tabTextColor -> color.
 
+##Demo
+[http://fir.im/ctlayout](http://fir.im/ctlayout)
 
 ## LICENSE
     Copyright 2017 HugeTerry.
