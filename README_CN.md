@@ -43,9 +43,9 @@ dependencies {
 
 ![show](showUI/show3.gif)</br>
 在使用它的界面添加以下设置:</br>
-1.setTitle(String title):设置Toolbar标题</br>
-2.setupWithViewPager(ViewPager viewPager):将写好的viewpager设置到该控件当中</br>
-3.setImageArray(int[] imageArray):根据tab数量设置好头部的图片数组，并传到该控件当中
+1.`setTitle(String title)`:设置Toolbar标题</br>
+2.`setupWithViewPager(ViewPager viewPager)`:将写好的viewpager设置到该控件当中</br>
+3.`setImageArray(int[] imageArray)`:根据tab数量设置好头部的图片数组，并传到该控件当中
 ```
         //构建写好的fragment加入到viewpager中
         initFragments();
@@ -72,7 +72,7 @@ dependencies {
 
 ![show](showUI/show2.gif)
 
-setImageArray(int[] imageArray, int[] colorArray):如果你想要有头部折叠后的颜色变化，可将之前设置好的图片数组以及根据tab数量设置的颜色数组传到该控件当中
+`setImageArray(int[] imageArray, int[] colorArray)`:如果你想要有头部折叠后的颜色变化，可将之前设置好的图片数组以及根据tab数量设置的颜色数组传到该控件当中
 ```
         mColorArray = new int[]{
                 android.R.color.holo_blue_light,
@@ -84,7 +84,7 @@ setImageArray(int[] imageArray, int[] colorArray):如果你想要有头部折叠
 
 ###添加返回
 
-setBackEnable(Boolean canBack):设置Toolbar的返回按钮
+`setBackEnable(Boolean canBack)`:设置Toolbar的返回按钮
 ```
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -103,17 +103,17 @@ setBackEnable(Boolean canBack):设置Toolbar的返回按钮
 
 ###获取子控件
 
-getActionBar():获取该组件中的ActionBar
-getTabLayout():获取该组件中的TabLayout
+`getActionBar()`:获取该组件中的ActionBar
+`getTabLayout()`:获取该组件中的TabLayout
 
 [更多代码](https://github.com/hugeterry/CoordinatorTabLayout/blob/master/sample/src/main/java/cn/hugeterry/coordinatortablayoutdemo/MainActivity.java)
 
 
 ##属性
 
-- app:contentScrim -> color.默认为?attr/colorPrimary
-- app:tabIndicatorColor -> color.
-- app:tabTextColor -> color.
+- `app:contentScrim` -> color.默认为?attr/colorPrimary
+- `app:tabIndicatorColor` -> color.
+- `app:tabTextColor` -> color.
 
 ##Demo
 [http://fir.im/ctlayout](http://fir.im/ctlayout)
