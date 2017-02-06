@@ -5,6 +5,8 @@
 
 CoordinatorTabLayout是一个自定义组合控件,可快速实现TabLayout与CoordinatorLayout相结合的样式
 继承至CoordinatorLayout, 在该组件下面使用了CollapsingToolbarLayout包含TabLayout
+[相关文档介绍](http://hugeterry.cn/dreams/559)
+
 
 ![show](showUI/show1.gif)
 
@@ -103,7 +105,7 @@ dependencies {
 
 ###获取子控件
 
-`getActionBar()`:获取该组件中的ActionBar
+`getActionBar()`:获取该组件中的ActionBar<br/>
 `getTabLayout()`:获取该组件中的TabLayout
 
 [更多代码](https://github.com/hugeterry/CoordinatorTabLayout/blob/master/sample/src/main/java/cn/hugeterry/coordinatortablayoutdemo/MainActivity.java)
