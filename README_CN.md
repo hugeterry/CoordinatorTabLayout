@@ -5,7 +5,8 @@
 
 CoordinatorTabLayout是一个自定义组合控件,可快速实现TabLayout与CoordinatorLayout相结合的样式
 继承至CoordinatorLayout, 在该组件下面使用了CollapsingToolbarLayout包含TabLayout
-[相关文档介绍](http://hugeterry.cn/dreams/559)
+
+[相关文档介绍:http://hugeterry.cn/dreams/559](http://hugeterry.cn/dreams/559)
 
 
 ![show](showUI/show1.gif)
