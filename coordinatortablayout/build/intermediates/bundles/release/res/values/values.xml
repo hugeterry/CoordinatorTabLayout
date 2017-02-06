@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CoordinatorTabLayout"><attr format="color" name="contentScrim"/><attr format="color" name="tabIndicatorColor"/><attr format="color" name="tabTextColor"/></declare-styleable>
+    <string name="app_name">CoordinatorTabLayout</string>
+    <style name="TabLayoutStyle" parent="Widget.Design.TabLayout">
+        <item name="tabTextAppearance">@style/TabTextAppearence</item>
+    </style>
+    <style name="TabTextAppearence" parent="TextAppearance.Design.Tab">
+        <item name="textAllCaps">false</item>
+    </style>
+</resources>
