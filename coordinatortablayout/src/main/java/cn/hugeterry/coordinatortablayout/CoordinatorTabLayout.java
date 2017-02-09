@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.res.ColorStateList;
 import android.content.res.TypedArray;
 import android.graphics.Color;
+import android.support.annotation.NonNull;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.TabLayout;
@@ -25,6 +26,9 @@ import cn.hugeterry.coordinatortablayout.listener.LoadHeaderImagesListener;
  */
 
 public class CoordinatorTabLayout extends CoordinatorLayout {
+
+    private int[] mImageArray, mColorArray;
+
     private Context mContext;
     private Toolbar mToolbar;
     private ActionBar mActionbar;
@@ -121,11 +125,9 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
      * @param imageArray 图片数组
      * @return
      */
-    public CoordinatorTabLayout setImageArray(int[] imageArray) {
-        if (imageArray != null) {
-            mImageView.setImageResource(imageArray[0]);
-            setupTabLayout(imageArray, null);
-        }
+    public CoordinatorTabLayout setImageArray(@NonNull int[] imageArray) {
+        mImageArray = imageArray;
+        setupTabLayout();
         return this;
     }
 
@@ -136,28 +138,40 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
      * @param colorArray ContentScrimColor数组
      * @return
      */
-    public CoordinatorTabLayout setImageArray(int[] imageArray, int[] colorArray) {
-        if (imageArray != null) {
-            mImageView.setImageResource(imageArray[0]);
-            setupTabLayout(imageArray, colorArray);
-        }
+    public CoordinatorTabLayout setImageArray(@NonNull int[] imageArray, @NonNull int[] colorArray) {
+        mImageArray = imageArray;
+        mColorArray = colorArray;
+        setupTabLayout();
         return this;
     }
 
-    private void setupTabLayout(final int[] imageArray, final int[] colorArray) {
+    /**
+     * 设置每个tab对应的ContentScrimColor
+     *
+     * @param colorArray 图片数组
+     * @return
+     */
+    public CoordinatorTabLayout setContentScrimColorArray(@NonNull int[] colorArray) {
+        mColorArray = colorArray;
+        return this;
+    }
+
+    private void setupTabLayout() {
         mTabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
                 mImageView.startAnimation(AnimationUtils.loadAnimation(mContext, R.anim.anim_dismiss));
                 if (mLoadHeaderImagesListener == null) {
-                    mImageView.setImageResource(imageArray[tab.getPosition()]);
+                    if (mImageArray != null) {
+                        mImageView.setImageResource(mImageArray[tab.getPosition()]);
+                    }
                 } else {
                     mLoadHeaderImagesListener.loadHeaderImages(mImageView, tab);
                 }
-                if (colorArray != null) {
+                if (mColorArray != null) {
                     mCollapsingToolbarLayout.setContentScrimColor(
                             ContextCompat.getColor(
-                                    mContext, colorArray[tab.getPosition()]));
+                                    mContext, mColorArray[tab.getPosition()]));
                 }
                 mImageView.setAnimation(AnimationUtils.loadAnimation(mContext, R.anim.anim_show));
             }
@@ -212,18 +226,7 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
      */
     public CoordinatorTabLayout setLoadHeaderImagesListener(LoadHeaderImagesListener loadHeaderImagesListener) {
         mLoadHeaderImagesListener = loadHeaderImagesListener;
-        return this;
-    }
-
-    /**
-     * 该方法需在调用了setLoadHeaderImagesListener后使用
-     * 设置每个tab对应的ContentScrimColor
-     *
-     * @param colorArray 图片数组
-     * @return
-     */
-    public CoordinatorTabLayout setLoadHeaderImageColorArray(int[] colorArray) {
-        setupTabLayout(null, colorArray);
+        setupTabLayout();
         return this;
     }
 

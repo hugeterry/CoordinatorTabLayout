@@ -47,7 +47,7 @@ public class LoadHeaderImageFromNetworkActivity extends AppCompatActivity {
         mCoordinatorTabLayout = (CoordinatorTabLayout) findViewById(R.id.coordinatortablayout);
         mCoordinatorTabLayout.setTitle("Demo")
                 .setBackEnable(true)
-                .setLoadHeaderImageColorArray(mColorArray)
+                .setContentScrimColorArray(mColorArray)
                 .setLoadHeaderImagesListener(new LoadHeaderImagesListener() {
                     @Override
                     public void loadHeaderImages(ImageView imageView, TabLayout.Tab tab) {
