@@ -185,4 +185,10 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
         return mTabLayout;
     }
 
+    /**
+     * 获取该组件中的ImageView
+     */
+    public ImageView getImageView() {
+        return mImageView;
+    }
 }

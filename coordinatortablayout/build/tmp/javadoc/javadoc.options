@@ -1,6 +1,0 @@
--classpath '/Users/admin/Library/Android/sdk/platforms/android-25/android.jar'
--d '/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/docs/javadoc'
--doctitle 'coordinatortablayout 1.0.5 API'
--quiet 
--windowtitle 'coordinatortablayout 1.0.5 API'
-'/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/src/main/java/cn/hugeterry/coordinatortablayout/CoordinatorTabLayout.java'
