@@ -19,7 +19,7 @@ CoordinatorTabLayout是一个自定义组合控件,可快速实现TabLayout与Co
 在gradle文件中加入下面的依赖:
 ```
 dependencies {
-    compile 'cn.hugeterry.coordinatortablayout:coordinatortablayout:1.0.5'
+    compile 'cn.hugeterry.coordinatortablayout:coordinatortablayout:1.0.6'
 }
 ```
 
@@ -104,10 +104,38 @@ dependencies {
     }
 ```
 
+###通过网络加载头部图片
+
+选择用网络来加载图片。可实现以下接口:
+`setLoadHeaderImagesListener(LoadHeaderImagesListener loadHeaderImagesListener)`:设置获取头部图片的操作
+```
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        ...
+        mCoordinatorTabLayout.setTitle("Demo")
+                .setBackEnable(true)
+                .setContentScrimColorArray(mColorArray)
+                .setLoadHeaderImagesListener(new LoadHeaderImagesListener() {
+                    @Override
+                    public void loadHeaderImages(ImageView imageView, TabLayout.Tab tab) {
+                        switch (tab.getPosition()) {
+                            case 0:
+                                //加载图片
+                                break;
+                            ...
+                        }
+                    }
+                })
+                .setupWithViewPager(mViewPager);
+    }
+```
+你也可以选择用Glide/Picasso等网络框架来实现，[代码例子](https://github.com/hugeterry/CoordinatorTabLayout/blob/master/sample/src/main/java/cn/hugeterry/coordinatortablayoutdemo/LoadHeaderImageFromNetworkActivity.java)
+
 ###获取子控件
 
 `getActionBar()`:获取该组件中的ActionBar<br/>
-`getTabLayout()`:获取该组件中的TabLayout
+`getTabLayout()`:获取该组件中的TabLayout<br/>
+`getImageView()`:获取该组件中的ImageView
 
 [更多代码](https://github.com/hugeterry/CoordinatorTabLayout/blob/master/sample/src/main/java/cn/hugeterry/coordinatortablayoutdemo/MainActivity.java)
 

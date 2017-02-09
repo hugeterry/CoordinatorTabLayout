@@ -18,7 +18,7 @@ Inherited to the CoordinatorLayout, in the following components used CollapsingT
 Add the following to your build.gradle:
 ```
 dependencies {
-    compile 'cn.hugeterry.coordinatortablayout:coordinatortablayout:1.0.5'
+    compile 'cn.hugeterry.coordinatortablayout:coordinatortablayout:1.0.6'
 }
 ```
 
@@ -102,9 +102,36 @@ Finish, enjoy it.
     }
 ```
 
+###Load header images from network
+
+`setLoadHeaderImagesListener(LoadHeaderImagesListener loadHeaderImagesListener)`:Set the listener that gets the header images.
+```
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        ...
+        mCoordinatorTabLayout.setTitle("Demo")
+                .setBackEnable(true)
+                .setContentScrimColorArray(mColorArray)
+                .setLoadHeaderImagesListener(new LoadHeaderImagesListener() {
+                    @Override
+                    public void loadHeaderImages(ImageView imageView, TabLayout.Tab tab) {
+                        switch (tab.getPosition()) {
+                            case 0:
+                                //load header images
+                                break;
+                            ...
+                        }
+                    }
+                })
+                .setupWithViewPager(mViewPager);
+    }
+```
+You also can load header images using glide/picasso，[Sample](https://github.com/hugeterry/CoordinatorTabLayout/blob/master/sample/src/main/java/cn/hugeterry/coordinatortablayoutdemo/LoadHeaderImageFromNetworkActivity.java)
+
 ###Gets the child control
 `getActionBar()`:get the ActionBar<br/>
-`getTabLayout()`:get the TabLayout
+`getTabLayout()`:get the TabLayout<br/>
+`getImageView()`:get the ImageView
 
 [More code](https://github.com/hugeterry/CoordinatorTabLayout/blob/master/sample/src/main/java/cn/hugeterry/coordinatortablayoutdemo/MainActivity.java)
 
