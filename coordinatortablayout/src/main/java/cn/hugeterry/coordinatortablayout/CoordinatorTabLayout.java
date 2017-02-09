@@ -18,6 +18,8 @@ import android.view.LayoutInflater;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
+import cn.hugeterry.coordinatortablayout.listener.LoadHeaderImagesListener;
+
 /**
  * @author hugeterry(http://hugeterry.cn)
  */
@@ -29,6 +31,7 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
     private TabLayout mTabLayout;
     private ImageView mImageView;
     private CollapsingToolbarLayout mCollapsingToolbarLayout;
+    private LoadHeaderImagesListener mLoadHeaderImagesListener;
 
     public CoordinatorTabLayout(Context context) {
         super(context);
@@ -89,6 +92,7 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
      * 设置Toolbar标题
      *
      * @param title 标题
+     * @return
      */
     public CoordinatorTabLayout setTitle(String title) {
         if (mActionbar != null) {
@@ -101,6 +105,7 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
      * 设置Toolbar显示返回按钮及标题
      *
      * @param canBack 是否返回
+     * @return
      */
     public CoordinatorTabLayout setBackEnable(Boolean canBack) {
         if (canBack && mActionbar != null) {
@@ -114,6 +119,7 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
      * 设置每个tab对应的头部图片
      *
      * @param imageArray 图片数组
+     * @return
      */
     public CoordinatorTabLayout setImageArray(int[] imageArray) {
         if (imageArray != null) {
@@ -128,6 +134,7 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
      *
      * @param imageArray 图片数组
      * @param colorArray ContentScrimColor数组
+     * @return
      */
     public CoordinatorTabLayout setImageArray(int[] imageArray, int[] colorArray) {
         if (imageArray != null) {
@@ -142,7 +149,11 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
                 mImageView.startAnimation(AnimationUtils.loadAnimation(mContext, R.anim.anim_dismiss));
-                mImageView.setImageResource(imageArray[tab.getPosition()]);
+                if (mLoadHeaderImagesListener == null) {
+                    mImageView.setImageResource(imageArray[tab.getPosition()]);
+                } else {
+                    mLoadHeaderImagesListener.loadHeaderImages(mImageView, tab);
+                }
                 if (colorArray != null) {
                     mCollapsingToolbarLayout.setContentScrimColor(
                             ContextCompat.getColor(
@@ -165,6 +176,7 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
      * 设置与该组件搭配的ViewPager
      *
      * @param viewPager 与TabLayout结合的ViewPager
+     * @return
      */
     public CoordinatorTabLayout setupWithViewPager(ViewPager viewPager) {
         mTabLayout.setupWithViewPager(viewPager);
@@ -191,4 +203,28 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
     public ImageView getImageView() {
         return mImageView;
     }
+
+    /**
+     * 设置LoadHeaderImagesListener
+     *
+     * @param loadHeaderImagesListener 设置LoadHeaderImagesListener
+     * @return
+     */
+    public CoordinatorTabLayout setLoadHeaderImagesListener(LoadHeaderImagesListener loadHeaderImagesListener) {
+        mLoadHeaderImagesListener = loadHeaderImagesListener;
+        return this;
+    }
+
+    /**
+     * 该方法需在调用了setLoadHeaderImagesListener后使用
+     * 设置每个tab对应的ContentScrimColor
+     *
+     * @param colorArray 图片数组
+     * @return
+     */
+    public CoordinatorTabLayout setLoadHeaderImageColorArray(int[] colorArray) {
+        setupTabLayout(null, colorArray);
+        return this;
+    }
+
 }

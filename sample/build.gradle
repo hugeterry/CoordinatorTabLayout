@@ -28,4 +28,5 @@ dependencies {
     testCompile 'junit:junit:4.12'
 
     compile project(':coordinatortablayout')
+    compile 'com.github.bumptech.glide:glide:3.7.0'
 }
