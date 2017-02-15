@@ -70,7 +70,7 @@ Finish, enjoy it.
 
 ##More
 
-###set the content scrim
+###Set the content scrim
 
 ![show](showUI/show2.gif)
 
@@ -84,7 +84,7 @@ Finish, enjoy it.
         mCoordinatorTabLayout.setImageArray(mImageArray, mColorArray);
  ```
 
-###set back enable
+###Set back enable
 `setBackEnable(Boolean canBack)`:To enable the Up button for an activity that has a parent activity.
 ```
     @Override
