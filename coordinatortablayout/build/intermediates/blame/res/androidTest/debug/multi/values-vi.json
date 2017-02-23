@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-vi/values-vi.xml",
+        "outputFile": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-vi\\values-vi.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 164
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "file": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-vi\\values-vi.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 272
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "file": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-vi\\values-vi.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 395
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "file": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-vi\\values-vi.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 503
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "file": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-vi\\values-vi.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 612
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "file": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-vi\\values-vi.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 696
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "file": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-vi\\values-vi.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 799
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "file": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-vi\\values-vi.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -144,7 +144,7 @@
                     "endOffset": 918
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "file": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-vi\\values-vi.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -163,7 +163,7 @@
                     "endOffset": 995
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "file": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-vi\\values-vi.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -182,7 +182,7 @@
                     "endOffset": 1072
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "file": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-vi\\values-vi.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -201,7 +201,7 @@
                     "endOffset": 1156
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "file": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-vi\\values-vi.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -220,7 +220,7 @@
                     "endOffset": 1260
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "file": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-vi\\values-vi.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -239,7 +239,7 @@
                     "endOffset": 1369
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "file": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-vi\\values-vi.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -258,7 +258,7 @@
                     "endOffset": 1470
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "file": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-vi\\values-vi.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -277,7 +277,7 @@
                     "endOffset": 1575
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "file": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-vi\\values-vi.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -296,7 +296,7 @@
                     "endOffset": 1689
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "file": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-vi\\values-vi.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -315,7 +315,7 @@
                     "endOffset": 1794
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "file": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-vi\\values-vi.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -334,7 +334,7 @@
                     "endOffset": 1914
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "file": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-vi\\values-vi.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -353,7 +353,7 @@
                     "endOffset": 2013
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "file": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-vi\\values-vi.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -372,7 +372,7 @@
                     "endOffset": 2097
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "file": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-vi\\values-vi.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -391,7 +391,7 @@
                     "endOffset": 2198
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-vi/values-vi.xml",
+                    "file": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-vi\\values-vi.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,

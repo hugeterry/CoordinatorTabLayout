@@ -1,14 +1,14 @@
 [
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/androidTest/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+        "merged": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-anydpi-v21\\ic_arrow_white_24dp.xml",
+        "source": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\bundles\\debug\\res\\drawable-anydpi-v21\\ic_arrow_white_24dp.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/androidTest/debug/drawable-anydpi-v21/design_ic_visibility.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/drawable-anydpi-v21/design_ic_visibility.xml"
+        "merged": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/androidTest/debug/drawable-anydpi-v21/ic_arrow_white_24dp.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/bundles/debug/res/drawable-anydpi-v21/ic_arrow_white_24dp.xml"
+        "merged": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "source": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
     }
 ]

@@ -37,6 +37,8 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
     private CollapsingToolbarLayout mCollapsingToolbarLayout;
     private LoadHeaderImagesListener mLoadHeaderImagesListener;
 
+    private int mCollapsedHeight;
+
     public CoordinatorTabLayout(Context context) {
         super(context);
         mContext = context;
@@ -83,6 +85,11 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
 
         int tabTextColor = typedArray.getColor(R.styleable.CoordinatorTabLayout_tabTextColor, Color.WHITE);
         mTabLayout.setTabTextColors(ColorStateList.valueOf(tabTextColor));
+
+        float collapsedHeight = typedArray.getDimension(R.styleable.CoordinatorTabLayout_collapsedHeight, 400f);
+        mCollapsedHeight = (int) collapsedHeight;
+        mToolbar.getLayoutParams().height = mCollapsedHeight;
+
         typedArray.recycle();
     }
 
@@ -116,6 +123,17 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
             mActionbar.setDisplayHomeAsUpEnabled(true);
             mActionbar.setHomeAsUpIndicator(R.drawable.ic_arrow_white_24dp);
         }
+        return this;
+    }
+
+    /**
+     * Toolbar上显示向上键
+     * @param enable 是否显示
+     * @return
+     */
+    public CoordinatorTabLayout setDisplayHomeAsUpEnable(boolean enable) {
+        if (mActionbar != null)
+            mActionbar.setDisplayHomeAsUpEnabled(enable);
         return this;
     }
 
@@ -228,6 +246,26 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
         mLoadHeaderImagesListener = loadHeaderImagesListener;
         setupTabLayout();
         return this;
+    }
+
+    /**
+     * 设置收缩时的高度
+     *
+     * @param height 高度，根据实际效果，建议400左右
+     * @return
+     */
+    public CoordinatorTabLayout setCollapsedHeight(int height) {
+        mCollapsedHeight = height;
+        mToolbar.getLayoutParams().height = height;
+        return this;
+    }
+
+    /**
+     * 获取收缩时的高度
+     * @return
+     */
+    public int getCollapsedHeight(){
+        return mCollapsedHeight;
     }
 
 }

@@ -2,7 +2,8 @@
 /local.properties
 /.idea/workspace.xml
 .DS_Store
-/build
+coordiantortablayout/build/
+sample/build/
 # built application files
 *.apk
 *.ap_
