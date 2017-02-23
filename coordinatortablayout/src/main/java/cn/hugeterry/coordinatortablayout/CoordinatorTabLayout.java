@@ -3,6 +3,8 @@ package cn.hugeterry.coordinatortablayout;
 import android.content.Context;
 import android.content.res.ColorStateList;
 import android.content.res.TypedArray;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.support.annotation.NonNull;
 import android.support.design.widget.CollapsingToolbarLayout;
@@ -12,10 +14,12 @@ import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.graphics.Palette;
 import android.support.v7.widget.Toolbar;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
+import android.view.View;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
@@ -128,6 +132,7 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
 
     /**
      * Toolbar上显示向上键
+     *
      * @param enable 是否显示
      * @return
      */
@@ -262,10 +267,21 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
 
     /**
      * 获取收缩时的高度
+     *
      * @return
      */
-    public int getCollapsedHeight(){
+    public int getCollapsedHeight() {
         return mCollapsedHeight;
     }
 
+    /**
+     * 设置Toolbar的向上键的点击事件监听器
+     *
+     * @param listener 监听器
+     * @return
+     */
+    public CoordinatorTabLayout setNavigationOnClickListener(View.OnClickListener listener) {
+        mToolbar.setNavigationOnClickListener(listener);
+        return this;
+    }
 }
