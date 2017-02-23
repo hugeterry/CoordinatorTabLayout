@@ -52,12 +52,23 @@ public class MainActivity extends AppCompatActivity {
                 .setImageArray(mImageArray, mColorArray)
                 .setupWithViewPager(mViewPager)
                 .setCollapsedHeight(400)
-                .setNavigationOnClickListener(new View.OnClickListener() {
+                .setCoordinatorTabLayoutListener(new CoordinatorTabLayout.CoordinatorTabLayoutListener() {
                     @Override
-                    public void onClick(View v) {
-                        MainActivity.this.finish();
+                    public View.OnClickListener setNavigationOnClickListener() {
+                        return new View.OnClickListener() {
+                            @Override
+                            public void onClick(View v) {
+                                MainActivity.this.finish();
+                            }
+                        };
                     }
                 });
+//                .setNavigationOnClickListener(new View.OnClickListener() {
+//                    @Override
+//                    public void onClick(View v) {
+//                        MainActivity.this.finish();
+//                    }
+//                });
     }
 
     private void initFragments() {

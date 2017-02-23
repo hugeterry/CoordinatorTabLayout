@@ -38,6 +38,7 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
     private CollapsingToolbarLayout mCollapsingToolbarLayout;
     private LoadHeaderImagesListener mLoadHeaderImagesListener;
 
+    private CoordinatorTabLayoutListener mCoordinatorTabLayoutListener;
 
     public CoordinatorTabLayout(Context context) {
         super(context);
@@ -277,5 +278,29 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
     public CoordinatorTabLayout setNavigationOnClickListener(View.OnClickListener listener) {
         mToolbar.setNavigationOnClickListener(listener);
         return this;
+    }
+
+    /**
+     * 设置总的监听器，该监听器可以包含多个方法以对不同的对象进行属性设置
+     * @param listener 监听器
+     * @return
+     */
+    public CoordinatorTabLayout setCoordinatorTabLayoutListener(CoordinatorTabLayoutListener listener) {
+        mToolbar.setNavigationOnClickListener(listener.setNavigationOnClickListener());
+        return this;
+    }
+
+    /**
+     * Created by StupidL on 2017-02-23
+     * 回调接口。
+     * 未来可以将所有需要设置回调接口的方法，集中到一起。
+     */
+    public interface CoordinatorTabLayoutListener {
+
+        /**
+         * 为Toolbar的向上键设置点击监听
+         *
+         */
+        View.OnClickListener setNavigationOnClickListener();
     }
 }
