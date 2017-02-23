@@ -3,8 +3,6 @@ package cn.hugeterry.coordinatortablayout;
 import android.content.Context;
 import android.content.res.ColorStateList;
 import android.content.res.TypedArray;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.support.annotation.NonNull;
 import android.support.design.widget.CollapsingToolbarLayout;
@@ -14,7 +12,6 @@ import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.graphics.Palette;
 import android.support.v7.widget.Toolbar;
 import android.util.AttributeSet;
 import android.util.TypedValue;
@@ -41,7 +38,6 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
     private CollapsingToolbarLayout mCollapsingToolbarLayout;
     private LoadHeaderImagesListener mLoadHeaderImagesListener;
 
-    private int mCollapsedHeight;
 
     public CoordinatorTabLayout(Context context) {
         super(context);
@@ -91,8 +87,7 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
         mTabLayout.setTabTextColors(ColorStateList.valueOf(tabTextColor));
 
         float collapsedHeight = typedArray.getDimension(R.styleable.CoordinatorTabLayout_collapsedHeight, 400f);
-        mCollapsedHeight = (int) collapsedHeight;
-        mToolbar.getLayoutParams().height = mCollapsedHeight;
+        mToolbar.getLayoutParams().height = (int) collapsedHeight;
 
         typedArray.recycle();
     }
@@ -260,7 +255,6 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
      * @return
      */
     public CoordinatorTabLayout setCollapsedHeight(int height) {
-        mCollapsedHeight = height;
         mToolbar.getLayoutParams().height = height;
         return this;
     }
@@ -271,7 +265,7 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
      * @return
      */
     public int getCollapsedHeight() {
-        return mCollapsedHeight;
+        return mToolbar.getLayoutParams().height;
     }
 
     /**
