@@ -16,6 +16,7 @@ import android.support.v7.widget.Toolbar;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
+import android.view.View;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
@@ -36,6 +37,8 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
     private ImageView mImageView;
     private CollapsingToolbarLayout mCollapsingToolbarLayout;
     private LoadHeaderImagesListener mLoadHeaderImagesListener;
+
+    private CoordinatorTabLayoutListener mCoordinatorTabLayoutListener;
 
     public CoordinatorTabLayout(Context context) {
         super(context);
@@ -83,6 +86,10 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
 
         int tabTextColor = typedArray.getColor(R.styleable.CoordinatorTabLayout_tabTextColor, Color.WHITE);
         mTabLayout.setTabTextColors(ColorStateList.valueOf(tabTextColor));
+
+        float collapsedHeight = typedArray.getDimension(R.styleable.CoordinatorTabLayout_collapsedHeight, 400f);
+        mToolbar.getLayoutParams().height = (int) collapsedHeight;
+
         typedArray.recycle();
     }
 
@@ -116,6 +123,18 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
             mActionbar.setDisplayHomeAsUpEnabled(true);
             mActionbar.setHomeAsUpIndicator(R.drawable.ic_arrow_white_24dp);
         }
+        return this;
+    }
+
+    /**
+     * Toolbar上显示向上键
+     *
+     * @param enable 是否显示
+     * @return
+     */
+    public CoordinatorTabLayout setDisplayHomeAsUpEnable(boolean enable) {
+        if (mActionbar != null)
+            mActionbar.setDisplayHomeAsUpEnabled(enable);
         return this;
     }
 
@@ -230,4 +249,58 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
         return this;
     }
 
+    /**
+     * 设置收缩时的高度
+     *
+     * @param height 高度，根据实际效果，建议400左右
+     * @return
+     */
+    public CoordinatorTabLayout setCollapsedHeight(int height) {
+        mToolbar.getLayoutParams().height = height;
+        return this;
+    }
+
+    /**
+     * 获取收缩时的高度
+     *
+     * @return
+     */
+    public int getCollapsedHeight() {
+        return mToolbar.getLayoutParams().height;
+    }
+
+    /**
+     * 设置Toolbar的向上键的点击事件监听器
+     *
+     * @param listener 监听器
+     * @return
+     */
+    public CoordinatorTabLayout setNavigationOnClickListener(View.OnClickListener listener) {
+        mToolbar.setNavigationOnClickListener(listener);
+        return this;
+    }
+
+    /**
+     * 设置总的监听器，该监听器可以包含多个方法以对不同的对象进行属性设置
+     * @param listener 监听器
+     * @return
+     */
+    public CoordinatorTabLayout setCoordinatorTabLayoutListener(CoordinatorTabLayoutListener listener) {
+        mToolbar.setNavigationOnClickListener(listener.setNavigationOnClickListener());
+        return this;
+    }
+
+    /**
+     * Created by StupidL on 2017-02-23
+     * 回调接口。
+     * 未来可以将所有需要设置回调接口的方法，集中到一起。
+     */
+    public interface CoordinatorTabLayoutListener {
+
+        /**
+         * 为Toolbar的向上键设置点击监听
+         *
+         */
+        View.OnClickListener setNavigationOnClickListener();
+    }
 }

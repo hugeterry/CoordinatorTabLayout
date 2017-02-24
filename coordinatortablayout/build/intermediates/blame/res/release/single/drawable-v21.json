@@ -1,34 +1,34 @@
 [
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/drawable-v21/notification_action_background.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/drawable-v21/notification_action_background.xml"
+        "merged": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\res\\merged\\release\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/drawable-v21/abc_btn_colored_material.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/drawable-v21/abc_btn_colored_material.xml"
+        "merged": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\res\\merged\\release\\drawable-v21\\avd_hide_password.xml",
+        "source": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\drawable-v21\\avd_hide_password.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/drawable-v21/abc_action_bar_item_background_material.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/drawable-v21/abc_action_bar_item_background_material.xml"
+        "merged": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\res\\merged\\release\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable-v21\\abc_edit_text_material.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/drawable-v21/design_bottom_navigation_item_background.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/drawable-v21/design_bottom_navigation_item_background.xml"
+        "merged": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\res\\merged\\release\\drawable-v21\\design_bottom_navigation_item_background.xml",
+        "source": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/drawable-v21/design_password_eye.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/drawable-v21/design_password_eye.xml"
+        "merged": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\res\\merged\\release\\drawable-v21\\avd_show_password.xml",
+        "source": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\drawable-v21\\avd_show_password.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/drawable-v21/abc_edit_text_material.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/drawable-v21/abc_edit_text_material.xml"
+        "merged": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\res\\merged\\release\\drawable-v21\\notification_action_background.xml",
+        "source": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable-v21\\notification_action_background.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/drawable-v21/avd_show_password.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/drawable-v21/avd_show_password.xml"
+        "merged": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\res\\merged\\release\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\drawable-v21\\abc_btn_colored_material.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/drawable-v21/avd_hide_password.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/drawable-v21/avd_hide_password.xml"
+        "merged": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\res\\merged\\release\\drawable-v21\\design_password_eye.xml",
+        "source": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.1.0\\res\\drawable-v21\\design_password_eye.xml"
     }
 ]

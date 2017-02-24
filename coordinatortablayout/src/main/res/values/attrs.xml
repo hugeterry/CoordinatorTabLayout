@@ -4,5 +4,6 @@
         <attr name="contentScrim" format="color" />
         <attr name="tabIndicatorColor" format="color" />
         <attr name="tabTextColor" format="color" />
+        <attr name="collapsedHeight" format="dimension" />
     </declare-styleable>
 </resources>

@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v17/values-v17.xml",
+        "outputFile": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v17\\values-v17.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 223
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v17/values-v17.xml",
+                    "file": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-v17\\values-v17.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -33,7 +33,7 @@
                     "endOffset": 451
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v17/values-v17.xml",
+                    "file": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-v17\\values-v17.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -54,7 +54,7 @@
                     "endOffset": 609
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v17/values-v17.xml",
+                    "file": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-v17\\values-v17.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -75,7 +75,7 @@
                     "endOffset": 759
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v17/values-v17.xml",
+                    "file": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-v17\\values-v17.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -96,7 +96,7 @@
                     "endOffset": 931
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v17/values-v17.xml",
+                    "file": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-v17\\values-v17.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -117,7 +117,7 @@
                     "endOffset": 1159
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v17/values-v17.xml",
+                    "file": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-v17\\values-v17.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -138,7 +138,7 @@
                     "endOffset": 1401
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v17/values-v17.xml",
+                    "file": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-v17\\values-v17.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -159,7 +159,7 @@
                     "endOffset": 1572
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v17/values-v17.xml",
+                    "file": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-v17\\values-v17.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -180,7 +180,7 @@
                     "endOffset": 1746
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v17/values-v17.xml",
+                    "file": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-v17\\values-v17.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
@@ -201,7 +201,7 @@
                     "endOffset": 1915
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v17/values-v17.xml",
+                    "file": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-v17\\values-v17.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 4,
@@ -222,7 +222,7 @@
                     "endOffset": 2188
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v17/values-v17.xml",
+                    "file": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-v17\\values-v17.xml",
                     "position": {
                         "startLine": 35,
                         "startColumn": 4,
@@ -243,7 +243,7 @@
                     "endOffset": 2388
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v17/values-v17.xml",
+                    "file": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-v17\\values-v17.xml",
                     "position": {
                         "startLine": 39,
                         "startColumn": 4,
@@ -264,7 +264,7 @@
                     "endOffset": 2592
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v17/values-v17.xml",
+                    "file": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-v17\\values-v17.xml",
                     "position": {
                         "startLine": 42,
                         "startColumn": 4,
@@ -285,7 +285,7 @@
                     "endOffset": 2921
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v17/values-v17.xml",
+                    "file": "F:\\AndroidProjects\\CoordinatorTabLayout\\coordinatortablayout\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.1.0\\res\\values-v17\\values-v17.xml",
                     "position": {
                         "startLine": 46,
                         "startColumn": 4,
