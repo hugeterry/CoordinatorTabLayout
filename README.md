@@ -11,9 +11,9 @@ Inherited to the CoordinatorLayout, in the following components used CollapsingT
 ![show](showUI/show1.gif)
 
 
-##Usage
+## Usage
 
-###Step 1
+### Step 1
 
 Add the following to your build.gradle:
 ```
@@ -22,7 +22,7 @@ dependencies {
 }
 ```
 
-###Step 2
+### Step 2
 
 Config in xml:
 ```
@@ -41,7 +41,7 @@ Config in xml:
 ```
 
 
-###Step 3
+### Step 3
 
 ![show](showUI/show3.gif)</br>
 Use it in your own code:</br>
@@ -68,9 +68,9 @@ Use it in your own code:</br>
 Finish, enjoy it.
 
 
-##More
+## More
 
-###Set the content scrim
+### Set the content scrim
 
 ![show](showUI/show2.gif)
 
@@ -84,7 +84,7 @@ Finish, enjoy it.
         mCoordinatorTabLayout.setImageArray(mImageArray, mColorArray);
  ```
 
-###Set back enable
+### Set back enable
 `setBackEnable(Boolean canBack)`:To enable the Up button for an activity that has a parent activity.
 ```
     @Override
@@ -102,7 +102,7 @@ Finish, enjoy it.
     }
 ```
 
-###Load header images from network
+### Load header images from network
 
 `setLoadHeaderImagesListener(LoadHeaderImagesListener loadHeaderImagesListener)`:Set the listener that gets the header images.
 ```
@@ -128,7 +128,7 @@ Finish, enjoy it.
 ```
 You also can load header images using glide/picasso，[Sample](https://github.com/hugeterry/CoordinatorTabLayout/blob/master/sample/src/main/java/cn/hugeterry/coordinatortablayoutdemo/LoadHeaderImageFromNetworkActivity.java)
 
-###Gets the child control
+### Gets the child control
 `getActionBar()`:get the ActionBar<br/>
 `getTabLayout()`:get the TabLayout<br/>
 `getImageView()`:get the ImageView
@@ -136,12 +136,12 @@ You also can load header images using glide/picasso，[Sample](https://github.co
 [More code](https://github.com/hugeterry/CoordinatorTabLayout/blob/master/sample/src/main/java/cn/hugeterry/coordinatortablayoutdemo/MainActivity.java)
 
 
-##Attributes
+## Attributes
 - `app:contentScrim` -> color.Defaults to ?attr/colorPrimary
 - `app:tabIndicatorColor` -> color.
 - `app:tabTextColor` -> color.
 
-##Demo
+## Demo
 [http://fir.im/ctlayout](http://fir.im/ctlayout)
 
 ## LICENSE

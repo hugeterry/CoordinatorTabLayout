@@ -12,9 +12,9 @@ CoordinatorTabLayout是一个自定义组合控件,可快速实现TabLayout与Co
 ![show](showUI/show1.gif)
 
 
-##用法
+## 用法
 
-###Step 1
+### Step 1
 
 在gradle文件中加入下面的依赖:
 ```
@@ -23,7 +23,7 @@ dependencies {
 }
 ```
 
-###Step 2
+### Step 2
 
 在你自己的XML中使用它:
 ```
@@ -42,7 +42,7 @@ dependencies {
 ```
 
 
-###Step 3
+### Step 3
 
 ![show](showUI/show3.gif)</br>
 在使用它的界面添加以下设置:</br>
@@ -69,9 +69,9 @@ dependencies {
 大功告成，好好享用吧
 
 
-##更多功能
+## 更多功能
 
-###添加折叠后的颜色变化效果
+### 添加折叠后的颜色变化效果
 
 ![show](showUI/show2.gif)
 
@@ -85,7 +85,7 @@ dependencies {
         mCoordinatorTabLayout.setImageArray(mImageArray, mColorArray);
  ```
 
-###添加返回
+### 添加返回
 
 `setBackEnable(Boolean canBack)`:设置Toolbar的返回按钮
 ```
@@ -104,7 +104,7 @@ dependencies {
     }
 ```
 
-###通过网络加载头部图片
+### 通过网络加载头部图片
 
 选择用网络来加载图片。可实现以下接口:
 `setLoadHeaderImagesListener(LoadHeaderImagesListener loadHeaderImagesListener)`:设置获取头部图片的操作
@@ -131,7 +131,7 @@ dependencies {
 ```
 你也可以选择用Glide/Picasso等网络框架来实现，[代码例子](https://github.com/hugeterry/CoordinatorTabLayout/blob/master/sample/src/main/java/cn/hugeterry/coordinatortablayoutdemo/LoadHeaderImageFromNetworkActivity.java)
 
-###获取子控件
+### 获取子控件
 
 `getActionBar()`:获取该组件中的ActionBar<br/>
 `getTabLayout()`:获取该组件中的TabLayout<br/>
@@ -140,13 +140,13 @@ dependencies {
 [更多代码](https://github.com/hugeterry/CoordinatorTabLayout/blob/master/sample/src/main/java/cn/hugeterry/coordinatortablayoutdemo/MainActivity.java)
 
 
-##属性
+## 属性
 
 - `app:contentScrim` -> color.默认为?attr/colorPrimary
 - `app:tabIndicatorColor` -> color.
 - `app:tabTextColor` -> color.
 
-##Demo
+## Demo
 [http://fir.im/ctlayout](http://fir.im/ctlayout)
 
 ## LICENSE
