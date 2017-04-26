@@ -66,6 +66,8 @@ dependencies {
                 .setupWithViewPager(mViewPager);
 ```
 
+注意: 关于该Application的Theme, 指定parent为Theme.AppCompat, 且必须为NoActionBar主题.
+
 大功告成，好好享用吧
 
 
