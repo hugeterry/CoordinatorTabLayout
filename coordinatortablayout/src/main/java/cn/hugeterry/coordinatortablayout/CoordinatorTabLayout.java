@@ -26,7 +26,6 @@ import cn.hugeterry.coordinatortablayout.listener.LoadHeaderImagesListener;
  */
 
 public class CoordinatorTabLayout extends CoordinatorLayout {
-
     private int[] mImageArray, mColorArray;
 
     private Context mContext;
