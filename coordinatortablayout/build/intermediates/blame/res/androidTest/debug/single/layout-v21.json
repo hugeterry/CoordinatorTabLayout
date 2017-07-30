@@ -1,18 +1,18 @@
 [
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_action.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout-v21/notification_action.xml"
+        "merged": "/Users/mac/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_action.xml",
+        "source": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/layout-v21/notification_action.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_action_tombstone.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout-v21/notification_action_tombstone.xml"
+        "merged": "/Users/mac/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/layout-v21/notification_action_tombstone.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_template_icon_group.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout-v21/notification_template_icon_group.xml"
+        "merged": "/Users/mac/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/layout-v21/notification_template_custom_big.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_template_custom_big.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout-v21/notification_template_custom_big.xml"
+        "merged": "/Users/mac/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/androidTest/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/layout-v21/notification_template_icon_group.xml"
     }
 ]

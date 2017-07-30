@@ -1,34 +1,34 @@
 [
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/drawable-v21/abc_btn_colored_material.xml"
+        "merged": "/Users/mac/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/debug/drawable-v21/avd_hide_password.xml",
+        "source": "/Users/mac/.android/build-cache/ef4b7746e134122f19af3030fcfc1d0422f3acbe/output/res/drawable-v21/avd_hide_password.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/drawable-v21/notification_action_background.xml"
+        "merged": "/Users/mac/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/drawable-v21/abc_btn_colored_material.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/drawable-v21/abc_action_bar_item_background_material.xml"
+        "merged": "/Users/mac/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/drawable-v21/abc_edit_text_material.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/debug/drawable-v21/design_bottom_navigation_item_background.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/drawable-v21/design_bottom_navigation_item_background.xml"
+        "merged": "/Users/mac/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/drawable-v21/notification_action_background.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/debug/drawable-v21/avd_hide_password.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/drawable-v21/avd_hide_password.xml"
+        "merged": "/Users/mac/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/debug/drawable-v21/avd_show_password.xml",
+        "source": "/Users/mac/.android/build-cache/ef4b7746e134122f19af3030fcfc1d0422f3acbe/output/res/drawable-v21/avd_show_password.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/debug/drawable-v21/avd_show_password.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/drawable-v21/avd_show_password.xml"
+        "merged": "/Users/mac/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/debug/drawable-v21/design_password_eye.xml",
+        "source": "/Users/mac/.android/build-cache/ef4b7746e134122f19af3030fcfc1d0422f3acbe/output/res/drawable-v21/design_password_eye.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/drawable-v21/abc_edit_text_material.xml"
+        "merged": "/Users/mac/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/debug/drawable-v21/design_bottom_navigation_item_background.xml",
+        "source": "/Users/mac/.android/build-cache/ef4b7746e134122f19af3030fcfc1d0422f3acbe/output/res/drawable-v21/design_bottom_navigation_item_background.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/debug/drawable-v21/design_password_eye.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/drawable-v21/design_password_eye.xml"
+        "merged": "/Users/mac/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
     }
 ]

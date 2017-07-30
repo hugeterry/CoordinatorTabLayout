@@ -1,90 +1,90 @@
 [
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/abc_primary_text_material_light.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/color/abc_primary_text_material_light.xml"
+        "merged": "/Users/mac/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/abc_tint_switch_track.xml",
+        "source": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/color/abc_tint_switch_track.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/abc_hint_foreground_material_light.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/color/abc_hint_foreground_material_light.xml"
+        "merged": "/Users/mac/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/color/abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/abc_tint_edittext.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/color/abc_tint_edittext.xml"
+        "merged": "/Users/mac/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/color/abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/abc_tint_switch_track.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/color/abc_tint_switch_track.xml"
+        "merged": "/Users/mac/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/color/abc_primary_text_disable_only_material_dark.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/switch_thumb_material_light.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/color/switch_thumb_material_light.xml"
+        "merged": "/Users/mac/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/abc_hint_foreground_material_dark.xml",
+        "source": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/color/abc_hint_foreground_material_dark.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/abc_tint_spinner.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/color/abc_tint_spinner.xml"
+        "merged": "/Users/mac/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/abc_hint_foreground_material_light.xml",
+        "source": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/color/abc_hint_foreground_material_light.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/abc_tint_seek_thumb.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/color/abc_tint_seek_thumb.xml"
+        "merged": "/Users/mac/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/color/abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/switch_thumb_material_dark.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/color/switch_thumb_material_dark.xml"
+        "merged": "/Users/mac/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/design_tint_password_toggle.xml",
+        "source": "/Users/mac/.android/build-cache/ef4b7746e134122f19af3030fcfc1d0422f3acbe/output/res/color/design_tint_password_toggle.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/abc_search_url_text.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/color/abc_search_url_text.xml"
+        "merged": "/Users/mac/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/color/abc_btn_colored_borderless_text_material.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/abc_tint_default.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/color/abc_tint_default.xml"
+        "merged": "/Users/mac/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/abc_primary_text_material_light.xml",
+        "source": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/color/abc_primary_text_material_light.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_dark.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/color/abc_primary_text_disable_only_material_dark.xml"
+        "merged": "/Users/mac/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/abc_tint_edittext.xml",
+        "source": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/color/abc_tint_edittext.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/abc_hint_foreground_material_dark.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/color/abc_hint_foreground_material_dark.xml"
+        "merged": "/Users/mac/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/color/abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/abc_primary_text_material_dark.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/color/abc_primary_text_material_dark.xml"
+        "merged": "/Users/mac/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/design_error.xml",
+        "source": "/Users/mac/.android/build-cache/ef4b7746e134122f19af3030fcfc1d0422f3acbe/output/res/color/design_error.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_light.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/color/abc_primary_text_disable_only_material_light.xml"
+        "merged": "/Users/mac/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/switch_thumb_material_dark.xml",
+        "source": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/color/switch_thumb_material_dark.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/abc_secondary_text_material_light.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/color/abc_secondary_text_material_light.xml"
+        "merged": "/Users/mac/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/abc_search_url_text.xml",
+        "source": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/color/abc_search_url_text.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/abc_tint_btn_checkable.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/color/abc_tint_btn_checkable.xml"
+        "merged": "/Users/mac/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/abc_tint_seek_thumb.xml",
+        "source": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/color/abc_tint_seek_thumb.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/design_tint_password_toggle.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/color/design_tint_password_toggle.xml"
+        "merged": "/Users/mac/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/abc_tint_switch_thumb.xml",
+        "source": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/color/abc_tint_switch_thumb.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/abc_tint_switch_thumb.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/color/abc_tint_switch_thumb.xml"
+        "merged": "/Users/mac/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/abc_tint_spinner.xml",
+        "source": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/color/abc_tint_spinner.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/abc_secondary_text_material_dark.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/color/abc_secondary_text_material_dark.xml"
+        "merged": "/Users/mac/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/switch_thumb_material_light.xml",
+        "source": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/color/switch_thumb_material_light.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/design_error.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/color/design_error.xml"
+        "merged": "/Users/mac/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/abc_tint_default.xml",
+        "source": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/color/abc_tint_default.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/abc_btn_colored_text_material.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/color/abc_btn_colored_text_material.xml"
+        "merged": "/Users/mac/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/abc_btn_colored_text_material.xml",
+        "source": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/color/abc_btn_colored_text_material.xml"
     },
     {
-        "merged": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/abc_btn_colored_borderless_text_material.xml",
-        "source": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/color/abc_btn_colored_borderless_text_material.xml"
+        "merged": "/Users/mac/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/res/merged/release/color/abc_tint_btn_checkable.xml",
+        "source": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/color/abc_tint_btn_checkable.xml"
     }
 ]

@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v21/values-v21.xml",
+        "outputFile": "/Users/mac/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v21/values-v21.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 154
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 218
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 285
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 349
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 440
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 543
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 646
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -144,7 +144,7 @@
                     "endOffset": 751
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -163,7 +163,7 @@
                     "endOffset": 858
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -182,7 +182,7 @@
                     "endOffset": 967
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -201,7 +201,7 @@
                     "endOffset": 1076
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -220,7 +220,7 @@
                     "endOffset": 1185
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -239,7 +239,7 @@
                     "endOffset": 1294
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -258,7 +258,7 @@
                     "endOffset": 1403
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -277,7 +277,7 @@
                     "endOffset": 1510
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -296,7 +296,7 @@
                     "endOffset": 1613
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -315,7 +315,7 @@
                     "endOffset": 1732
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -335,7 +335,7 @@
                     "endOffset": 1887
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -356,7 +356,7 @@
                     "endOffset": 2042
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -376,7 +376,7 @@
                     "endOffset": 2147
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -395,7 +395,7 @@
                     "endOffset": 2268
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -414,7 +414,7 @@
                     "endOffset": 2369
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
@@ -434,7 +434,7 @@
                     "endOffset": 2516
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -455,7 +455,7 @@
                     "endOffset": 2657
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
@@ -475,7 +475,7 @@
                     "endOffset": 2760
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 30,
                         "startColumn": 4,
@@ -494,7 +494,7 @@
                     "endOffset": 2879
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 31,
                         "startColumn": 4,
@@ -513,7 +513,7 @@
                     "endOffset": 2986
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 4,
@@ -532,7 +532,7 @@
                     "endOffset": 3089
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 33,
                         "startColumn": 4,
@@ -552,7 +552,7 @@
                     "endOffset": 3244
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 34,
                         "startColumn": 4,
@@ -573,7 +573,7 @@
                     "endOffset": 3415
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 36,
                         "startColumn": 4,
@@ -594,7 +594,7 @@
                     "endOffset": 3564
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 38,
                         "startColumn": 4,
@@ -615,7 +615,7 @@
                     "endOffset": 3729
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 40,
                         "startColumn": 4,
@@ -636,7 +636,7 @@
                     "endOffset": 3886
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 42,
                         "startColumn": 4,
@@ -657,7 +657,7 @@
                     "endOffset": 4037
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 44,
                         "startColumn": 4,
@@ -677,7 +677,7 @@
                     "endOffset": 4156
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 46,
                         "startColumn": 4,
@@ -697,7 +697,7 @@
                     "endOffset": 4528
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 47,
                         "startColumn": 4,
@@ -718,7 +718,7 @@
                     "endOffset": 4677
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 52,
                         "startColumn": 4,
@@ -739,7 +739,7 @@
                     "endOffset": 4826
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 54,
                         "startColumn": 4,
@@ -759,7 +759,7 @@
                     "endOffset": 4938
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 56,
                         "startColumn": 4,
@@ -778,7 +778,7 @@
                     "endOffset": 5085
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 57,
                         "startColumn": 4,
@@ -798,7 +798,7 @@
                     "endOffset": 5238
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 58,
                         "startColumn": 4,
@@ -819,7 +819,7 @@
                     "endOffset": 5385
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 60,
                         "startColumn": 4,
@@ -839,7 +839,7 @@
                     "endOffset": 5460
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 62,
                         "startColumn": 4,
@@ -858,7 +858,7 @@
                     "endOffset": 5549
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 63,
                         "startColumn": 4,
@@ -877,7 +877,7 @@
                     "endOffset": 5636
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 64,
                         "startColumn": 4,
@@ -896,7 +896,7 @@
                     "endOffset": 5737
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 65,
                         "startColumn": 4,
@@ -915,7 +915,7 @@
                     "endOffset": 5840
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 66,
                         "startColumn": 4,
@@ -935,7 +935,7 @@
                     "endOffset": 8908
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 67,
                         "startColumn": 4,
@@ -956,7 +956,7 @@
                     "endOffset": 9094
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 111,
                         "startColumn": 4,
@@ -977,7 +977,7 @@
                     "endOffset": 12174
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 114,
                         "startColumn": 4,
@@ -998,7 +998,7 @@
                     "endOffset": 12372
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 158,
                         "startColumn": 4,
@@ -1019,7 +1019,7 @@
                     "endOffset": 12572
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 161,
                         "startColumn": 4,
@@ -1040,7 +1040,7 @@
                     "endOffset": 12695
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 164,
                         "startColumn": 4,
@@ -1061,7 +1061,7 @@
                     "endOffset": 12818
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 166,
                         "startColumn": 4,
@@ -1082,7 +1082,7 @@
                     "endOffset": 12931
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 168,
                         "startColumn": 4,
@@ -1103,7 +1103,7 @@
                     "endOffset": 13114
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 170,
                         "startColumn": 4,
@@ -1124,7 +1124,7 @@
                     "endOffset": 13245
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 173,
                         "startColumn": 4,
@@ -1145,7 +1145,7 @@
                     "endOffset": 13446
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 175,
                         "startColumn": 4,
@@ -1165,7 +1165,7 @@
                     "endOffset": 13535
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 178,
                         "startColumn": 4,
@@ -1184,7 +1184,7 @@
                     "endOffset": 13646
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 179,
                         "startColumn": 4,
@@ -1204,7 +1204,7 @@
                     "endOffset": 13879
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 180,
                         "startColumn": 4,
@@ -1224,7 +1224,7 @@
                     "endOffset": 13980
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 183,
                         "startColumn": 4,
@@ -1243,7 +1243,7 @@
                     "endOffset": 14075
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 184,
                         "startColumn": 4,
@@ -1262,7 +1262,7 @@
                     "endOffset": 14198
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 185,
                         "startColumn": 4,
@@ -1281,7 +1281,7 @@
                     "endOffset": 14327
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 186,
                         "startColumn": 4,
@@ -1300,7 +1300,7 @@
                     "endOffset": 14444
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 187,
                         "startColumn": 4,
@@ -1320,7 +1320,7 @@
                     "endOffset": 14621
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 188,
                         "startColumn": 4,
@@ -1340,7 +1340,7 @@
                     "endOffset": 14720
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 191,
                         "startColumn": 4,
@@ -1360,7 +1360,7 @@
                     "endOffset": 14855
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 192,
                         "startColumn": 4,
@@ -1381,7 +1381,7 @@
                     "endOffset": 14998
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 194,
                         "startColumn": 4,
@@ -1402,7 +1402,7 @@
                     "endOffset": 15133
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 196,
                         "startColumn": 4,
@@ -1423,7 +1423,7 @@
                     "endOffset": 15252
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 198,
                         "startColumn": 4,
@@ -1444,7 +1444,7 @@
                     "endOffset": 15453
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 200,
                         "startColumn": 4,
@@ -1465,7 +1465,7 @@
                     "endOffset": 15572
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 204,
                         "startColumn": 4,
@@ -1485,7 +1485,7 @@
                     "endOffset": 15665
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 206,
                         "startColumn": 4,
@@ -1504,7 +1504,7 @@
                     "endOffset": 15776
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 207,
                         "startColumn": 4,
@@ -1523,7 +1523,7 @@
                     "endOffset": 15832
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 208,
                         "startColumn": 4,
@@ -1543,7 +1543,7 @@
                     "endOffset": 15939
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 209,
                         "startColumn": 4,
@@ -1564,7 +1564,7 @@
                     "endOffset": 16134
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 211,
                         "startColumn": 4,
@@ -1585,7 +1585,7 @@
                     "endOffset": 16245
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 215,
                         "startColumn": 4,
@@ -1606,7 +1606,7 @@
                     "endOffset": 16378
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 217,
                         "startColumn": 4,
@@ -1626,7 +1626,7 @@
                     "endOffset": 16473
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 219,
                         "startColumn": 4,
@@ -1645,7 +1645,7 @@
                     "endOffset": 16564
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 220,
                         "startColumn": 4,
@@ -1664,7 +1664,7 @@
                     "endOffset": 16655
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 221,
                         "startColumn": 4,
@@ -1683,7 +1683,7 @@
                     "endOffset": 16772
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 222,
                         "startColumn": 4,
@@ -1703,7 +1703,7 @@
                     "endOffset": 16911
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 223,
                         "startColumn": 4,
@@ -1723,7 +1723,7 @@
                     "endOffset": 16982
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 225,
                         "startColumn": 4,
@@ -1742,7 +1742,7 @@
                     "endOffset": 17065
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 226,
                         "startColumn": 4,
@@ -1762,7 +1762,7 @@
                     "endOffset": 17745
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 227,
                         "startColumn": 4,
@@ -1782,7 +1782,7 @@
                     "endOffset": 17802
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 237,
                         "startColumn": 4,
@@ -1801,7 +1801,7 @@
                     "endOffset": 17860
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 238,
                         "startColumn": 4,
@@ -1821,7 +1821,7 @@
                     "endOffset": 18554
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 239,
                         "startColumn": 4,
@@ -1842,7 +1842,7 @@
                     "endOffset": 19260
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 251,
                         "startColumn": 4,
@@ -1862,7 +1862,7 @@
                     "endOffset": 19379
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 263,
                         "startColumn": 4,
@@ -1881,7 +1881,7 @@
                     "endOffset": 19508
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 264,
                         "startColumn": 4,
@@ -1901,7 +1901,7 @@
                     "endOffset": 19679
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 265,
                         "startColumn": 4,
@@ -1922,7 +1922,7 @@
                     "endOffset": 19845
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 268,
                         "startColumn": 4,
@@ -1942,7 +1942,7 @@
                     "endOffset": 19974
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 271,
                         "startColumn": 4,
@@ -1962,7 +1962,7 @@
                     "endOffset": 20145
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 272,
                         "startColumn": 4,
@@ -1982,7 +1982,7 @@
                     "endOffset": 20276
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 275,
                         "startColumn": 4,
@@ -2002,7 +2002,7 @@
                     "endOffset": 20446
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 276,
                         "startColumn": 4,
@@ -2023,7 +2023,7 @@
                     "endOffset": 20621
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 279,
                         "startColumn": 4,
@@ -2044,7 +2044,7 @@
                     "endOffset": 20962
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 282,
                         "startColumn": 4,
@@ -2065,7 +2065,7 @@
                     "endOffset": 21160
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/values-v21/values-v21.xml",
+                    "file": "/Users/mac/.android/build-cache/ef4b7746e134122f19af3030fcfc1d0422f3acbe/output/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

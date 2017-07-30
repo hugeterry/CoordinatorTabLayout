@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+        "outputFile": "/Users/mac/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 327
                 },
                 "from": {
-                    "file": "/Users/admin/AndroidStudioProjects/CoordinatorTabLayout/coordinatortablayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "file": "/Users/mac/.android/build-cache/817811715d3d489a2dfe59d52b47a63db825caa6/output/res/values-hdpi-v4/values-hdpi-v4.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
