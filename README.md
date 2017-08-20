@@ -18,7 +18,7 @@ Inherited to the CoordinatorLayout, in the following components used CollapsingT
 Add the following to your build.gradle:
 ```
 dependencies {
-    compile 'cn.hugeterry.coordinatortablayout:coordinatortablayout:1.0.6'
+    compile 'cn.hugeterry.coordinatortablayout:coordinatortablayout:1.1.0'
 }
 ```
 
@@ -83,6 +83,15 @@ Finish, enjoy it.
                 android.R.color.holo_green_light};
         mCoordinatorTabLayout.setImageArray(mImageArray, mColorArray);
  ```
+
+### Set transulcent statusbar
+
+![show](showUI/show4.png)
+
+`setTransulcentStatusBar(Activity activity)`:Set transulcent statusbar,Support android4.4 and above.
+```
+mCoordinatorTabLayout.setTransulcentStatusBar(activity);
+```
 
 ### Set back enable
 `setBackEnable(Boolean canBack)`:To enable the Up button for an activity that has a parent activity.
