@@ -10,7 +10,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="cn.hugeterry.coordinatortablayoutdemo.LoadHeaderImageFromNetworkActivity">
+        <activity android:name="cn.hugeterry.coordinatortablayoutdemo.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

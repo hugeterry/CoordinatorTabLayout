@@ -1,9 +1,11 @@
 package cn.hugeterry.coordinatortablayout;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.res.ColorStateList;
 import android.content.res.TypedArray;
 import android.graphics.Color;
+import android.os.Build;
 import android.support.annotation.NonNull;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.CoordinatorLayout;
@@ -16,10 +18,12 @@ import android.support.v7.widget.Toolbar;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
+import android.view.WindowManager;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 import cn.hugeterry.coordinatortablayout.listener.LoadHeaderImagesListener;
+import cn.hugeterry.coordinatortablayout.utils.SystemView;
 
 /**
  * @author hugeterry(http://hugeterry.cn)
@@ -226,6 +230,29 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
     public CoordinatorTabLayout setLoadHeaderImagesListener(LoadHeaderImagesListener loadHeaderImagesListener) {
         mLoadHeaderImagesListener = loadHeaderImagesListener;
         setupTabLayout();
+        return this;
+    }
+
+    /**
+     * 设置透明状态栏
+     *
+     * @param activity
+     * @return
+     */
+    public CoordinatorTabLayout setTransulcentStatusBar(@NonNull Activity activity) {
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.KITKAT) {
+            return this;
+        } else {
+            mToolbar.setPadding(0, SystemView.getStatusBarHeight(activity)/2, 0, 0);
+        }
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            activity.getWindow().addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+            activity.getWindow().clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+            activity.getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);
+            activity.getWindow().setStatusBarColor(Color.TRANSPARENT);
+        } else {
+            activity.getWindow().addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+        }
         return this;
     }
 

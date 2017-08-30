@@ -19,7 +19,7 @@ CoordinatorTabLayout是一个自定义组合控件,可快速实现TabLayout与Co
 在gradle文件中加入下面的依赖:
 ```
 dependencies {
-    compile 'cn.hugeterry.coordinatortablayout:coordinatortablayout:1.0.6'
+    compile 'cn.hugeterry.coordinatortablayout:coordinatortablayout:1.1.0'
 }
 ```
 
@@ -84,6 +84,15 @@ dependencies {
                 android.R.color.holo_green_light};
         mCoordinatorTabLayout.setImageArray(mImageArray, mColorArray);
  ```
+
+### 设置头部状态栏透明
+
+![show](showUI/show4.png)
+
+`setTransulcentStatusBar(Activity activity)`:设置头部状态栏透明，在android4.4及以上版本生效
+```
+mCoordinatorTabLayout.setTransulcentStatusBar(activity);
+```
 
 ### 添加返回
 
