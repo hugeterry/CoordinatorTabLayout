@@ -243,7 +243,7 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.KITKAT) {
             return this;
         } else {
-            mToolbar.setPadding(0, SystemView.getStatusBarHeight(activity)/2, 0, 0);
+            mToolbar.setPadding(0, SystemView.getStatusBarHeight(activity) >> 1, 0, 0);
         }
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             activity.getWindow().addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
