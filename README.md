@@ -16,7 +16,7 @@ Inherited to the CoordinatorLayout, in the following components used CollapsingT
 ### Step 1
 
 Add the following to your build.gradle:
-```
+```groovy
 dependencies {
     compile 'cn.hugeterry.coordinatortablayout:coordinatortablayout:1.1.0'
 }
@@ -25,7 +25,7 @@ dependencies {
 ### Step 2
 
 Config in xml:
-```
+```xml
 <cn.hugeterry.coordinatortablayout.CoordinatorTabLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/coordinatortablayout"
@@ -48,7 +48,7 @@ Use it in your own code:</br>
 1.`setTitle(String title)`:Set the CoordinatorTabLayout's title.</br>
 2.`setupWithViewPager(ViewPager viewPager)`:To link the two together.</br>
 3.`setImageArray(int[] imageArray)`:Set the image array of the header according to the number of tabs and pass it to the control.</br>
-```
+```java
         //Add the fragment to the viewpager
         initFragments();
         initViewPager();
@@ -75,7 +75,7 @@ Finish, enjoy it.
 ![show](showUI/show2.gif)
 
 `setImageArray(int[] imageArray, int[] colorArray)`:Set the color array to use for the content scrim for each tab.
-```
+```java
         mColorArray = new int[]{
                 android.R.color.holo_blue_light,
                 android.R.color.holo_red_light,
@@ -89,13 +89,13 @@ Finish, enjoy it.
 ![show](showUI/show4.png)
 
 `setTransulcentStatusBar(Activity activity)`:Set transulcent statusbar,Support android4.4 and above.
-```
+```java
 mCoordinatorTabLayout.setTransulcentStatusBar(activity);
 ```
 
 ### Set back enable
 `setBackEnable(Boolean canBack)`:To enable the Up button for an activity that has a parent activity.
-```
+```java
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         ...
@@ -114,7 +114,7 @@ mCoordinatorTabLayout.setTransulcentStatusBar(activity);
 ### Load header images from network
 
 `setLoadHeaderImagesListener(LoadHeaderImagesListener loadHeaderImagesListener)`:Set the listener that gets the header images.
-```
+```java
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         ...

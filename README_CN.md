@@ -17,7 +17,7 @@ CoordinatorTabLayout是一个自定义组合控件,可快速实现TabLayout与Co
 ### Step 1
 
 在gradle文件中加入下面的依赖:
-```
+```groovy
 dependencies {
     compile 'cn.hugeterry.coordinatortablayout:coordinatortablayout:1.1.0'
 }
@@ -26,7 +26,7 @@ dependencies {
 ### Step 2
 
 在你自己的XML中使用它:
-```
+```xml
 <cn.hugeterry.coordinatortablayout.CoordinatorTabLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/coordinatortablayout"
@@ -49,7 +49,7 @@ dependencies {
 1.`setTitle(String title)`:设置Toolbar标题</br>
 2.`setupWithViewPager(ViewPager viewPager)`:将写好的viewpager设置到该控件当中</br>
 3.`setImageArray(int[] imageArray)`:根据tab数量设置好头部的图片数组，并传到该控件当中
-```
+```java
         //构建写好的fragment加入到viewpager中
         initFragments();
         initViewPager();
@@ -76,7 +76,7 @@ dependencies {
 ![show](showUI/show2.gif)
 
 `setImageArray(int[] imageArray, int[] colorArray)`:如果你想要有头部折叠后的颜色变化，可将之前设置好的图片数组以及根据tab数量设置的颜色数组传到该控件当中
-```
+```java
         mColorArray = new int[]{
                 android.R.color.holo_blue_light,
                 android.R.color.holo_red_light,
@@ -90,14 +90,14 @@ dependencies {
 ![show](showUI/show4.png)
 
 `setTransulcentStatusBar(Activity activity)`:设置头部状态栏透明，在android4.4及以上版本生效
-```
+```java
 mCoordinatorTabLayout.setTransulcentStatusBar(activity);
 ```
 
 ### 添加返回
 
 `setBackEnable(Boolean canBack)`:设置Toolbar的返回按钮
-```
+```java
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         ...
@@ -117,7 +117,7 @@ mCoordinatorTabLayout.setTransulcentStatusBar(activity);
 
 选择用网络来加载图片。可实现以下接口:
 `setLoadHeaderImagesListener(LoadHeaderImagesListener loadHeaderImagesListener)`:设置获取头部图片的操作
-```
+```java
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         ...
