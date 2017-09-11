@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     private CoordinatorTabLayout mCoordinatorTabLayout;
     private int[] mImageArray, mColorArray;
     private ArrayList<Fragment> mFragments;
-    private final String[] mTitles = {"Android", "iOS", "前端", "拓展资源"};
+    private final String[] mTitles = {"Android", "iOS", "Web", "Other"};
     private ViewPager mViewPager;
 
     @Override
