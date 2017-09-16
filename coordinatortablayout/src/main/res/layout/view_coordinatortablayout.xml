@@ -23,6 +23,7 @@
                 android:id="@+id/imageview"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:contentDescription="@string/imageview_description"
                 android:scaleType="centerCrop"
                 app:layout_collapseMode="parallax" />
 

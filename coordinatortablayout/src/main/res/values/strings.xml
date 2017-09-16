@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CoordinatorTabLayout</string>
+    <string name="imageview_description">imageview</string>
 </resources>
