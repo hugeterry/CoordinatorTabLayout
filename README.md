@@ -84,11 +84,11 @@ Finish, enjoy it.
         mCoordinatorTabLayout.setImageArray(mImageArray, mColorArray);
  ```
 
-### Set translucent statusbar
+### Set translucent status bar
 
 ![show](showUI/show4.png)
 
-`setTransulcentStatusBar(Activity activity)`:Set translucent statusbar,Support android4.4 and above.
+`setTransulcentStatusBar(Activity activity)`:Set translucent status bar,Support android4.4 and above.
 ```java
 mCoordinatorTabLayout.setTransulcentStatusBar(activity);
 ```

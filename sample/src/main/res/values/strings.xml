@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CoordinatorTabLayout</string>
+    <string name="about_library">关于该控件</string>
+    <string name="about_author">关于开发者</string>
 </resources>

@@ -1,10 +1,10 @@
 <resources>
 
     <style name="TabLayoutStyle" parent="Widget.Design.TabLayout">
-        <item name="tabTextAppearance">@style/TabTextAppearence</item>
+        <item name="tabTextAppearance">@style/TabTextAppearance</item>
     </style>
 
-    <style name="TabTextAppearence" parent="TextAppearance.Design.Tab">
+    <style name="TabTextAppearance" parent="TextAppearance.Design.Tab">
         <item name="textAllCaps">false</item>
     </style>
 

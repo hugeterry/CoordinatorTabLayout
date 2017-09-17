@@ -3,10 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/action_about"
-        android:title="关于该控件"
+        android:title="@string/about_library"
         app:showAsAction="never" />
     <item
         android:id="@+id/action_about_me"
-        android:title="关于开发者"
+        android:title="@string/about_author"
         app:showAsAction="never" />
 </menu>

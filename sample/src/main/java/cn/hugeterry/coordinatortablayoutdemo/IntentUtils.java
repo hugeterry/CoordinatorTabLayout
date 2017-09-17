@@ -2,7 +2,6 @@ package cn.hugeterry.coordinatortablayoutdemo;
 
 /**
  * Created by hugeterry(http://hugeterry.cn)
- * Date: 17/2/1 15:40
  */
 
 import android.content.Context;
