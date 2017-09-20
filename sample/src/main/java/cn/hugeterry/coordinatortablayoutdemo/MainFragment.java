@@ -17,7 +17,6 @@ import java.util.List;
  */
 public class MainFragment extends Fragment {
     private RecyclerView mRecyclerView;
-    private RecyclerAdapter mAdapter;
 
     private List<String> mDatas;
     private static final String ARG_TITLE = "title";
@@ -45,12 +44,12 @@ public class MainFragment extends Fragment {
         initData();
         mRecyclerView = (RecyclerView) v.findViewById(R.id.recyclerview);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(mRecyclerView.getContext()));
-        mRecyclerView.setAdapter(mAdapter = new RecyclerAdapter(mRecyclerView.getContext(), mDatas));
+        mRecyclerView.setAdapter(new RecyclerAdapter(mRecyclerView.getContext(), mDatas));
 
         return v;
     }
 
-    protected void initData() {
+    private void initData() {
         mDatas = new ArrayList<>();
         for (int i = 'A'; i < 'z'; i++) {
             mDatas.add(mTitle + (char) i);
