@@ -236,7 +236,7 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
     /**
      * 设置透明状态栏
      *
-     * @param activity
+     * @param activity 当前展示的activity
      * @return
      */
     public CoordinatorTabLayout setTransulcentStatusBar(@NonNull Activity activity) {
