@@ -20,7 +20,6 @@ import cn.hugeterry.coordinatortablayout.listener.LoadHeaderImagesListener;
 
 /**
  * Created by hugeterry(http://hugeterry.cn)
- * Date: 17/2/9 13:32
  */
 public class LoadHeaderImageFromNetworkActivity extends AppCompatActivity {
     private CoordinatorTabLayout mCoordinatorTabLayout;

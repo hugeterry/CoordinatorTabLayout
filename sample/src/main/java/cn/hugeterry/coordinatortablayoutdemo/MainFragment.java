@@ -13,7 +13,6 @@ import java.util.List;
 
 /**
  * Created by hugeterry(http://hugeterry.cn)
- * Date: 17/1/28 17:36
  */
 public class MainFragment extends Fragment {
     private RecyclerView mRecyclerView;

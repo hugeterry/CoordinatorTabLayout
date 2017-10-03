@@ -13,7 +13,6 @@ import cn.hugeterry.coordinatortablayout.CoordinatorTabLayout;
 
 /**
  * Created by hugeterry(http://hugeterry.cn)
- * Date: 17/1/28 17:32
  */
 public class MainActivity extends AppCompatActivity {
     private CoordinatorTabLayout mCoordinatorTabLayout;

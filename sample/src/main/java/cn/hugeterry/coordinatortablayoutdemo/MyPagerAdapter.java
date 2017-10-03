@@ -8,7 +8,6 @@ import java.util.ArrayList;
 
 /**
  * Created by hugeterry(http://hugeterry.cn)
- * Date: 16/1/28 17:24
  */
 public class MyPagerAdapter extends FragmentPagerAdapter {
     private ArrayList<Fragment> mFragments = new ArrayList<>();
