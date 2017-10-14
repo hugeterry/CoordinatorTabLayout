@@ -99,7 +99,7 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
      * 设置Toolbar标题
      *
      * @param title 标题
-     * @return
+     * @return CoordinatorTabLayout
      */
     public CoordinatorTabLayout setTitle(String title) {
         if (mActionbar != null) {
@@ -112,7 +112,7 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
      * 设置Toolbar显示返回按钮及标题
      *
      * @param canBack 是否返回
-     * @return
+     * @return CoordinatorTabLayout
      */
     public CoordinatorTabLayout setBackEnable(Boolean canBack) {
         if (canBack && mActionbar != null) {
@@ -126,7 +126,7 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
      * 设置每个tab对应的头部图片
      *
      * @param imageArray 图片数组
-     * @return
+     * @return CoordinatorTabLayout
      */
     public CoordinatorTabLayout setImageArray(@NonNull int[] imageArray) {
         mImageArray = imageArray;
@@ -139,7 +139,7 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
      *
      * @param imageArray 图片数组
      * @param colorArray ContentScrimColor数组
-     * @return
+     * @return CoordinatorTabLayout
      */
     public CoordinatorTabLayout setImageArray(@NonNull int[] imageArray, @NonNull int[] colorArray) {
         mImageArray = imageArray;
@@ -152,7 +152,7 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
      * 设置每个tab对应的ContentScrimColor
      *
      * @param colorArray 图片数组
-     * @return
+     * @return CoordinatorTabLayout
      */
     public CoordinatorTabLayout setContentScrimColorArray(@NonNull int[] colorArray) {
         mColorArray = colorArray;
@@ -193,7 +193,7 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
      * 设置与该组件搭配的ViewPager
      *
      * @param viewPager 与TabLayout结合的ViewPager
-     * @return
+     * @return CoordinatorTabLayout
      */
     public CoordinatorTabLayout setupWithViewPager(ViewPager viewPager) {
         mTabLayout.setupWithViewPager(viewPager);
@@ -225,7 +225,7 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
      * 设置LoadHeaderImagesListener
      *
      * @param loadHeaderImagesListener 设置LoadHeaderImagesListener
-     * @return
+     * @return CoordinatorTabLayout
      */
     public CoordinatorTabLayout setLoadHeaderImagesListener(LoadHeaderImagesListener loadHeaderImagesListener) {
         mLoadHeaderImagesListener = loadHeaderImagesListener;
@@ -237,7 +237,7 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
      * 设置透明状态栏
      *
      * @param activity 当前展示的activity
-     * @return
+     * @return CoordinatorTabLayout
      */
     public CoordinatorTabLayout setTransulcentStatusBar(@NonNull Activity activity) {
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.KITKAT) {
