@@ -19,7 +19,7 @@ CoordinatorTabLayout是一个自定义组合控件,可快速实现TabLayout与Co
 在gradle文件中加入下面的依赖:
 ```groovy
 dependencies {
-    compile 'cn.hugeterry.coordinatortablayout:coordinatortablayout:1.1.0'
+    compile 'cn.hugeterry.coordinatortablayout:coordinatortablayout:1.2.0'
 }
 ```
 
@@ -89,9 +89,18 @@ dependencies {
 
 ![show](showUI/show4.png)
 
-`setTransulcentStatusBar(Activity activity)`:设置头部状态栏透明，在android4.4及以上版本生效
+`setTranslucentStatusBar(Activity activity)`:设置头部状态栏透明，在android4.4 及以上版本生效
 ```java
-mCoordinatorTabLayout.setTransulcentStatusBar(activity);
+mCoordinatorTabLayout.setTranslucentStatusBar(activity);
+```
+
+### 设置导航栏透明
+
+![show](showUI/show5.jpg)
+
+`setTranslucentNavigationBar(Activity activity)`:设置导航栏透明，在android4.4 及以上版本生效
+```java
+mCoordinatorTabLayout.setTranslucentNavigationBar(activity);
 ```
 
 ### 添加返回

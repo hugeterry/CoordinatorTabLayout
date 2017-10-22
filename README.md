@@ -18,7 +18,7 @@ Inherited to the CoordinatorLayout, in the following components used CollapsingT
 Add the following to your build.gradle:
 ```groovy
 dependencies {
-    compile 'cn.hugeterry.coordinatortablayout:coordinatortablayout:1.1.0'
+    compile 'cn.hugeterry.coordinatortablayout:coordinatortablayout:1.2.0'
 }
 ```
 
@@ -88,9 +88,18 @@ Finish, enjoy it.
 
 ![show](showUI/show4.png)
 
-`setTransulcentStatusBar(Activity activity)`:Set translucent status bar,Support android4.4 and above.
+`setTranslucentStatusBar(Activity activity)`:Set translucent status bar,Support android4.4 and above.
 ```java
-mCoordinatorTabLayout.setTransulcentStatusBar(activity);
+mCoordinatorTabLayout.setTranslucentStatusBar(activity);
+```
+
+### Set translucent navigation bar
+
+![show](showUI/show5.jpg)
+
+`setTranslucentNavigationBar(Activity activity)`:Set translucent navigation bar,Support android4.4 and above.
+```java
+mCoordinatorTabLayout.setTranslucentNavigationBar(activity);
 ```
 
 ### Set back enable
