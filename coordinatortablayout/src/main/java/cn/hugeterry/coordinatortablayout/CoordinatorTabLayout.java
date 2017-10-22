@@ -18,6 +18,8 @@ import android.support.v7.widget.Toolbar;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
@@ -239,7 +241,42 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
      * @param activity 当前展示的activity
      * @return CoordinatorTabLayout
      */
-    public CoordinatorTabLayout setTransulcentStatusBar(@NonNull Activity activity) {
+    public CoordinatorTabLayout setTranslucentStatusBar(@NonNull Activity activity) {
+
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.KITKAT) {
+            return this;
+        }
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            activity.getWindow().setStatusBarColor(Color.TRANSPARENT);
+            activity.getWindow()
+                    .getDecorView()
+                    .setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_STABLE | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN);
+        } else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+            activity.getWindow()
+                    .setFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS,
+                            WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+        }
+
+        if (mToolbar != null) {
+            ViewGroup.MarginLayoutParams layoutParams = (ViewGroup.MarginLayoutParams) mToolbar.getLayoutParams();
+            layoutParams.setMargins(
+                    layoutParams.leftMargin,
+                    layoutParams.topMargin + activity.getResources().getDimensionPixelSize(activity.getResources().
+                            getIdentifier("status_bar_height", "dimen", "android")),
+                    layoutParams.rightMargin,
+                    layoutParams.bottomMargin);
+        }
+
+        return this;
+    }
+
+    /**
+     * 设置沉浸式
+     *
+     * @param activity 当前展示的activity
+     * @return CoordinatorTabLayout
+     */
+    public CoordinatorTabLayout setTranslucentNavigationBar(@NonNull Activity activity) {
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.KITKAT) {
             return this;
         } else {

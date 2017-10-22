@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 android.R.color.holo_green_light};
 
         mCoordinatorTabLayout = (CoordinatorTabLayout) findViewById(R.id.coordinatortablayout);
-        mCoordinatorTabLayout.setTransulcentStatusBar(this)
+        mCoordinatorTabLayout.setTranslucentStatusBar(this)
                 .setTitle("Demo")
                 .setBackEnable(true)
                 .setImageArray(mImageArray, mColorArray)
