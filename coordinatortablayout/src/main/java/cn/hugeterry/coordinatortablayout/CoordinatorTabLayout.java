@@ -261,8 +261,7 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
             ViewGroup.MarginLayoutParams layoutParams = (ViewGroup.MarginLayoutParams) mToolbar.getLayoutParams();
             layoutParams.setMargins(
                     layoutParams.leftMargin,
-                    layoutParams.topMargin + activity.getResources().getDimensionPixelSize(activity.getResources().
-                            getIdentifier("status_bar_height", "dimen", "android")),
+                    layoutParams.topMargin + SystemView.getStatusBarHeight(activity),
                     layoutParams.rightMargin,
                     layoutParams.bottomMargin);
         }
