@@ -192,6 +192,17 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
     }
 
     /**
+     * 设置TabLayout TabMode
+     *
+     * @param mode
+     * @return CoordinatorTabLayout
+     */
+    public CoordinatorTabLayout setTabMode(@TabLayout.Mode int mode) {
+        mTabLayout.setTabMode(mode);
+        return this;
+    }
+
+    /**
      * 设置与该组件搭配的ViewPager
      *
      * @param viewPager 与TabLayout结合的ViewPager
