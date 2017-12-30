@@ -25,6 +25,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 import cn.hugeterry.coordinatortablayout.listener.LoadHeaderImagesListener;
+import cn.hugeterry.coordinatortablayout.listener.OnTabSelectedListener;
 import cn.hugeterry.coordinatortablayout.utils.SystemView;
 
 /**
@@ -41,6 +42,7 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
     private ImageView mImageView;
     private CollapsingToolbarLayout mCollapsingToolbarLayout;
     private LoadHeaderImagesListener mLoadHeaderImagesListener;
+    private OnTabSelectedListener mOnTabSelectedListener;
 
     public CoordinatorTabLayout(Context context) {
         super(context);
@@ -132,7 +134,6 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
      */
     public CoordinatorTabLayout setImageArray(@NonNull int[] imageArray) {
         mImageArray = imageArray;
-        setupTabLayout();
         return this;
     }
 
@@ -146,7 +147,6 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
     public CoordinatorTabLayout setImageArray(@NonNull int[] imageArray, @NonNull int[] colorArray) {
         mImageArray = imageArray;
         mColorArray = colorArray;
-        setupTabLayout();
         return this;
     }
 
@@ -179,14 +179,24 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
                                     mContext, mColorArray[tab.getPosition()]));
                 }
                 mImageView.setAnimation(AnimationUtils.loadAnimation(mContext, R.anim.anim_show));
+                if (mOnTabSelectedListener != null) {
+                    mOnTabSelectedListener.onTabSelected(tab);
+                }
+
             }
 
             @Override
             public void onTabUnselected(TabLayout.Tab tab) {
+                if (mOnTabSelectedListener != null) {
+                    mOnTabSelectedListener.onTabUnselected(tab);
+                }
             }
 
             @Override
             public void onTabReselected(TabLayout.Tab tab) {
+                if (mOnTabSelectedListener != null) {
+                    mOnTabSelectedListener.onTabReselected(tab);
+                }
             }
         });
     }
@@ -209,6 +219,7 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
      * @return CoordinatorTabLayout
      */
     public CoordinatorTabLayout setupWithViewPager(ViewPager viewPager) {
+        setupTabLayout();
         mTabLayout.setupWithViewPager(viewPager);
         return this;
     }
@@ -242,7 +253,17 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
      */
     public CoordinatorTabLayout setLoadHeaderImagesListener(LoadHeaderImagesListener loadHeaderImagesListener) {
         mLoadHeaderImagesListener = loadHeaderImagesListener;
-        setupTabLayout();
+        return this;
+    }
+
+    /**
+     * 设置onTabSelectedListener
+     *
+     * @param onTabSelectedListener 设置onTabSelectedListener
+     * @return CoordinatorTabLayout
+     */
+    public CoordinatorTabLayout addOnTabSelectedListener(OnTabSelectedListener onTabSelectedListener) {
+        mOnTabSelectedListener = onTabSelectedListener;
         return this;
     }
 
