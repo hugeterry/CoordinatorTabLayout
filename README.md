@@ -18,7 +18,7 @@ Inherited to the CoordinatorLayout, in the following components used CollapsingT
 Add the following to your build.gradle:
 ```groovy
 dependencies {
-    compile 'cn.hugeterry.coordinatortablayout:coordinatortablayout:1.2.0'
+    compile 'cn.hugeterry.coordinatortablayout:coordinatortablayout:1.2.2'
 }
 ```
 
@@ -145,6 +145,35 @@ mCoordinatorTabLayout.setTranslucentNavigationBar(activity);
     }
 ```
 You also can load header images using glide/picasso，[Sample](https://github.com/hugeterry/CoordinatorTabLayout/blob/master/sample/src/main/java/cn/hugeterry/coordinatortablayoutdemo/LoadHeaderImageFromNetworkActivity.java)
+
+### Set the behavior mode for the Tabs in this layout
+
+`setTabMode(@TabLayout.Mode int mode)`:The valid input options are:MODE_FIXED,MODE_SCROLLABLE
+```java
+mCoordinatorTabLayout.setTabMode(TabLayout.MODE_SCROLLABLE);
+```
+
+### Add a CoordinatorTabLayout.OnTabSelectedListener
+
+`addOnTabSelectedListener(OnTabSelectedListener onTabSelectedListener)`:Add a CoordinatorTabLayout.OnTabSelectedListener that will be invoked when tab selection changes.
+```java
+mCoordinatorTabLayout.addOnTabSelectedListener(new OnTabSelectedListener() {
+                         @Override
+                         public void onTabSelected(TabLayout.Tab tab) {
+
+                         }
+
+                         @Override
+                         public void onTabUnselected(TabLayout.Tab tab) {
+
+                         }
+
+                         @Override
+                         public void onTabReselected(TabLayout.Tab tab) {
+
+                         }
+                     })
+```
 
 ### Gets the child control
 `getActionBar()`:get the ActionBar<br/>

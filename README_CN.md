@@ -19,7 +19,7 @@ CoordinatorTabLayout是一个自定义组合控件,可快速实现TabLayout与Co
 在gradle文件中加入下面的依赖:
 ```groovy
 dependencies {
-    compile 'cn.hugeterry.coordinatortablayout:coordinatortablayout:1.2.0'
+    compile 'cn.hugeterry.coordinatortablayout:coordinatortablayout:1.2.2'
 }
 ```
 
@@ -148,6 +148,35 @@ mCoordinatorTabLayout.setTranslucentNavigationBar(activity);
     }
 ```
 你也可以选择用Glide/Picasso等网络框架来实现，[代码例子](https://github.com/hugeterry/CoordinatorTabLayout/blob/master/sample/src/main/java/cn/hugeterry/coordinatortablayoutdemo/LoadHeaderImageFromNetworkActivity.java)
+
+### 设置tab可滑动(当tab过多时)
+
+`setTabMode(@TabLayout.Mode int mode)`:可设置tablayout的行为模式
+```java
+mCoordinatorTabLayout.setTabMode(TabLayout.MODE_SCROLLABLE);
+```
+
+### 设置tab的选中监听器
+
+`addOnTabSelectedListener(OnTabSelectedListener onTabSelectedListener)`:对tab点击前中后进行操作
+```java
+mCoordinatorTabLayout.addOnTabSelectedListener(new OnTabSelectedListener() {
+                         @Override
+                         public void onTabSelected(TabLayout.Tab tab) {
+
+                         }
+
+                         @Override
+                         public void onTabUnselected(TabLayout.Tab tab) {
+
+                         }
+
+                         @Override
+                         public void onTabReselected(TabLayout.Tab tab) {
+
+                         }
+                     })
+```
 
 ### 获取子控件
 
