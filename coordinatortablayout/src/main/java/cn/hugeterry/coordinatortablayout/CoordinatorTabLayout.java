@@ -179,6 +179,7 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
                                     mContext, mColorArray[tab.getPosition()]));
                 }
                 mImageView.setAnimation(AnimationUtils.loadAnimation(mContext, R.anim.anim_show));
+
                 if (mOnTabSelectedListener != null) {
                     mOnTabSelectedListener.onTabSelected(tab);
                 }
