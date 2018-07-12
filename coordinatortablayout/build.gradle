@@ -5,12 +5,12 @@ apply plugin: 'com.jfrog.bintray'
 version = "1.2.2"
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion '26.0.2'
+    compileSdkVersion 27
+    buildToolsVersion '27.0.3'
 
     defaultConfig {
         minSdkVersion 15
-        targetSdkVersion 25
+        targetSdkVersion 27
         versionCode 10
         versionName "1.2.2"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -25,13 +25,17 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
-        exclude group: 'com.android.support', module: 'support-annotations'
-    })
-    compile 'com.android.support:appcompat-v7:25.3.1'
-    compile 'com.android.support:design:25.3.1'
-    testCompile 'junit:junit:4.12'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    def supportLibraries_version = '27.1.1'
+
+    // support libraries
+    implementation "com.android.support:appcompat-v7:$supportLibraries_version"
+    implementation "com.android.support:design:$supportLibraries_version"
+
+    // testing libraries
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations' })
+    testImplementation 'junit:junit:4.12'
 }
 
 def siteUrl = 'https://github.com/hugeterry/CoordinatorTabLayout'

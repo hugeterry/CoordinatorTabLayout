@@ -43,7 +43,7 @@ public class LoadHeaderImageFromNetworkActivity extends AppCompatActivity {
                 android.R.color.holo_orange_light,
                 android.R.color.holo_green_light};
 
-        mCoordinatorTabLayout = (CoordinatorTabLayout) findViewById(R.id.coordinatortablayout);
+        mCoordinatorTabLayout = findViewById(R.id.coordinatortablayout);
         mCoordinatorTabLayout.setTranslucentStatusBar(this)
                 .setTitle("Demo")
                 .setBackEnable(true)

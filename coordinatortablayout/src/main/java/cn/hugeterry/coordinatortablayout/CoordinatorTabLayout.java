@@ -70,9 +70,9 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
     private void initView(Context context) {
         LayoutInflater.from(context).inflate(R.layout.view_coordinatortablayout, this, true);
         initToolbar();
-        mCollapsingToolbarLayout = (CollapsingToolbarLayout) findViewById(R.id.collapsingtoolbarlayout);
-        mTabLayout = (TabLayout) findViewById(R.id.tabLayout);
-        mImageView = (ImageView) findViewById(R.id.imageview);
+        mCollapsingToolbarLayout = findViewById(R.id.collapsingtoolbarlayout);
+        mTabLayout = findViewById(R.id.tabLayout);
+        mImageView = findViewById(R.id.imageview);
     }
 
     private void initWidget(Context context, AttributeSet attrs) {
@@ -94,7 +94,7 @@ public class CoordinatorTabLayout extends CoordinatorLayout {
     }
 
     private void initToolbar() {
-        mToolbar = (Toolbar) findViewById(R.id.toolbar);
+        mToolbar = findViewById(R.id.toolbar);
         ((AppCompatActivity) mContext).setSupportActionBar(mToolbar);
         mActionbar = ((AppCompatActivity) mContext).getSupportActionBar();
     }
