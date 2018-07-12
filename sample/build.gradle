@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion '26.0.2'
+    compileSdkVersion 27
+    buildToolsVersion '27.0.3'
     defaultConfig {
         applicationId "cn.hugeterry.coordinatortablayout"
         minSdkVersion 15
-        targetSdkVersion 25
+        targetSdkVersion 27
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -20,13 +20,19 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
-        exclude group: 'com.android.support', module: 'support-annotations'
-    })
-    compile 'com.android.support:appcompat-v7:25.3.1'
-    testCompile 'junit:junit:4.12'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(':coordinatortablayout')
+    def supportLibraries_version = '27.1.1'
 
-    compile project(':coordinatortablayout')
-    compile 'com.github.bumptech.glide:glide:3.7.0'
+    // support
+    implementation "com.android.support:appcompat-v7:$supportLibraries_version"
+    implementation "com.android.support:design:$supportLibraries_version"
+
+    // glide
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+
+    // testing libraries
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations' })
+    testImplementation 'junit:junit:4.12'
 }

@@ -1,9 +1,9 @@
 package cn.hugeterry.coordinatortablayoutdemo;
 
+import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
                 android.R.color.holo_orange_light,
                 android.R.color.holo_green_light};
 
-        mCoordinatorTabLayout = (CoordinatorTabLayout) findViewById(R.id.coordinatortablayout);
+        mCoordinatorTabLayout = findViewById(R.id.coordinatortablayout);
         mCoordinatorTabLayout.setTranslucentStatusBar(this)
                 .setTitle("Demo")
                 .setBackEnable(true)
@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initViewPager() {
-        mViewPager = (ViewPager) findViewById(R.id.vp);
+        mViewPager = findViewById(R.id.vp);
         mViewPager.setOffscreenPageLimit(4);
         mViewPager.setAdapter(new MyPagerAdapter(getSupportFragmentManager(), mFragments, mTitles));
     }
